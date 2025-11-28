@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Clóvis Machado">
+    <meta name="description" content="Web download archive">
+    <meta name="keywords" content="Download, Portfolio">
+    <title>Black Zone</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(10, 10, 10);
+            color: #adff2f;
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 55px;
+            text-align: center;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        nav a {
+            color: #adff2f;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: opacity 0.3s;
+        }
+
+        nav a:hover {
+            opacity: 0.7;
+        }
+
+        .search-container {
+            max-width: 1200px;
+            margin: 0 auto 20px;
+        }
+
+        #searchInput {
+            width: 100%;
+            padding: 12px 20px;
+            background-color: #1a1a1a;
+            border: 2px solid #adff2f;
+            border-radius: 5px;
+            color: #adff2f;
+            font-size: 16px;
+            font-family: inherit;
+        }
+
+        #searchInput::placeholder {
+            color: #557a2f;
+            opacity: 1;
+        }
+
+        #searchInput:focus {
+            outline: none;
+            box-shadow: 0 0 10px rgba(173, 255, 47, 0.3);
+        }
+
+        .table-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow-x: auto;
+        }
+
+        table {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-collapse: collapse;
+            width: 100%;
+            background-color: rgb(10, 10, 10);
+        }
+
+        th {
+            border-bottom: 2px solid #adff2f;
+            text-align: left;
+            padding: 15px 8px;
+            color: #adff2f;
+            cursor: pointer;
+            user-select: none;
+            position: relative;
+        }
+
+        th:hover {
+            background-color: #111d11;
+        }
+
+        th.sortable::after {
+            content: ' ↕';
+            opacity: 0.5;
+            font-size: 14px;
+        }
+
+        th.asc::after {
+            content: ' ↑';
+            opacity: 1;
+        }
+
+        th.desc::after {
+            content: ' ↓';
+            opacity: 1;
+        }
+
+        td {
+            border-bottom: 1px solid #333;
+            text-align: left;
+            padding: 12px 8px;
+            color: #adff2f;
+        }
+
+        tr:hover {
+            background-color: #111d11;
+        }
+
+        a {
+            color: #adff2f;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        a:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+        }
+
+
+
+        .no-results {
+            text-align: center;
+            padding: 30px;
+            color: #557a2f;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 35px;
+            }
+
+            nav {
+                font-size: 16px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 10px;
+            }
+
+            th, td {
+                padding: 8px 5px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>BLACK ZONE</h1>
+    
+    <nav>
+        <a href="#">Pagina Inicial</a>
+        <a style="color: #f0ffff;" href="#">Arquivos</a>
+        <a href="#">Projetos</a>
+        <a href="pinkzone.html">PINK ZONE</a>
+    </nav>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Buscar arquivos...">
+    </div>
+
+    <div class="table-container">
+        <table id="fileTable">
+            <thead>
+                <tr>
+                    <th class="sortable" data-column="name">Nome do Arquivo</th>
+                    <th class="sortable" data-column="size">Tamanho</th>
+                    <th class="sortable" data-column="date">Data</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Os arquivos serão inseridos aqui via JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        // Dados dos arquivos
+        const files = [
+            {
+                name: 'AV1_EstagioII_ClóvisMachado.docx',
+                path: 'arquivos/AV1_EstagioII_ClóvisMachado.docx',
+                size: 244832,
+                date: new Date('2025-11-15'),
+                type: 'application/msword'
+            },
+            {
+                name: 'AV1_EstagioII_ClóvisMachado.pdf',
+                path: 'arquivos/AV1_EstagioII_ClóvisMachado.pdf',
+                size: 382825,
+                date: new Date('2025-11-15'),
+                type: 'application/pdf'
+            },
+            {
+                name: 'EsquemasWeb.rar',
+                path: 'arquivos/EsquemasWeb.rar',
+                size: 184320,
+                date: new Date('2025-11-10'),
+                type: 'application/zip'
+            },
+            {
+                name: 'Pássaro de oculos.webp',
+                path: 'arquivos/Pássaro de oculos.webp',
+                size: 77824,
+                date: new Date('2025-11-20'),
+                type: 'image/webp'
+            },  
+            {
+                name: 'Redes_Atividade Sub-redes_Clóvis.xlsx',
+                path: 'arquivos/Redes_Atividade Sub-redes_Clóvis.xlsx',
+                size: 106496,
+                date: new Date('2025-11-01'),
+                type: 'application/vnd.ms-excel'
+            },
+            {
+                name: 'Solzinho bom.png',
+                path: 'arquivos/Solzinho bom.png',
+                size: 8192,
+                date: new Date('2025-11-20'),
+                type: 'image/png'
+            },   
+        ];
+
+        let currentSort = { column: null, direction: 'asc' };
+
+        // Função para formatar tamanho do arquivo
+        function formatFileSize(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return Math.round((bytes / Math.pow(k, i)) * 100) / 100 + ' ' + sizes[i];
+        }
+
+        // Função para formatar data
+        function formatDate(date) {
+            const day = String(date.getDate()).padStart(2, '0');
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const year = date.getFullYear();
+            return `${day}/${month}/${year}`;
+        }
+
+        // Função para obter extensão do arquivo
+        function getFileExtension(filename) {
+            return filename.split('.').pop().toUpperCase();
+        }
+
+        // Renderizar tabela
+        function renderTable(data) {
+            const tbody = document.getElementById('tableBody');
+            
+            if (data.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="3" class="no-results">Nenhum arquivo encontrado</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = data.map(file => `
+                <tr>
+                    <td>
+                        <a href="${file.path}" download="${file.name}" type="${file.type}">${file.name}</a>
+                    </td>
+                    <td>${formatFileSize(file.size)}</td>
+                    <td>${formatDate(file.date)}</td>
+                </tr>
+            `).join('');
+        }
+
+        // Função de ordenação
+        function sortTable(column) {
+            const tbody = document.getElementById('tableBody');
+            const headers = document.querySelectorAll('th.sortable');
+            
+            // Atualizar direção da ordenação
+            if (currentSort.column === column) {
+                currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSort.column = column;
+                currentSort.direction = 'asc';
+            }
+
+            // Atualizar classes dos headers
+            headers.forEach(th => {
+                th.classList.remove('asc', 'desc');
+                if (th.dataset.column === column) {
+                    th.classList.add(currentSort.direction);
+                }
+            });
+
+            // Ordenar dados
+            const sortedFiles = [...files].sort((a, b) => {
+                let valA, valB;
+
+                if (column === 'name') {
+                    valA = a.name.toLowerCase();
+                    valB = b.name.toLowerCase();
+                } else if (column === 'size') {
+                    valA = a.size;
+                    valB = b.size;
+                } else if (column === 'date') {
+                    valA = a.date.getTime();
+                    valB = b.date.getTime();
+                }
+
+                if (currentSort.direction === 'asc') {
+                    return valA > valB ? 1 : valA < valB ? -1 : 0;
+                } else {
+                    return valA < valB ? 1 : valA > valB ? -1 : 0;
+                }
+            });
+
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const filteredFiles = searchTerm 
+                ? sortedFiles.filter(file => file.name.toLowerCase().includes(searchTerm))
+                : sortedFiles;
+
+            renderTable(filteredFiles);
+        }
+
+        // Busca
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            const filteredFiles = files.filter(file => 
+                file.name.toLowerCase().includes(searchTerm)
+            );
+            
+            if (currentSort.column) {
+                sortTable(currentSort.column);
+            } else {
+                renderTable(filteredFiles);
+            }
+        });
+
+        // Event listeners para ordenação
+        document.querySelectorAll('th.sortable').forEach(th => {
+            th.addEventListener('click', () => {
+                sortTable(th.dataset.column);
+            });
+        });
+
+        // Renderizar tabela inicial
+        renderTable(files);
+    </script>
+</body>
+</html>

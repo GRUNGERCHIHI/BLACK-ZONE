@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Clóvis Machado">
+    <meta name="description" content="Web download archive">
+    <meta name="keywords" content="Download, Portfolio">
+    <link rel="stylesheet" href="style.css">
+    <title>Black Zone/Arquivos</title>
+
+</head>
+<body>
+    <h1>BLACK ZONE</h1>
+    
+    <nav>
+        <a href="blackzone-paginainicial.html">Pagina Inicial</a>
+        <a style="color: #f0ffff;" href="blackzone-arquivos.html">Arquivos</a>
+        <a href="blackzone-chihi.html">Projetos</a>
+        <a href="pinkzone.html">PINK ZONE</a>
+    </nav>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Buscar arquivos...">
+    </div>
+
+    <div class="table-container">
+        <table id="fileTable">
+            <thead>
+                <tr>
+                    <th class="sortable" data-column="name">Nome do Arquivo</th>
+                    <th class="sortable" data-column="size">Tamanho</th>
+                    <th class="sortable" data-column="date">Data</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Os arquivos serão inseridos aqui via JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        // Dados dos arquivos
+        const files = [
+            {
+                name: 'AV1_EstagioII_ClóvisMachado.docx',
+                path: 'arquivos/AV1_EstagioII_ClóvisMachado.docx',
+                size: 244832,
+                date: new Date('2025-11-15'),
+                type: 'application/msword'
+            },
+            {
+                name: 'AV1_EstagioII_ClóvisMachado.pdf',
+                path: 'arquivos/AV1_EstagioII_ClóvisMachado.pdf',
+                size: 382825,
+                date: new Date('2025-11-15'),
+                type: 'application/pdf'
+            },
+            {
+                name: 'EsquemasWeb.rar',
+                path: 'arquivos/EsquemasWeb.rar',
+                size: 184320,
+                date: new Date('2025-11-10'),
+                type: 'application/zip'
+            },
+            {
+                name: 'Pássaro de oculos.webp',
+                path: 'arquivos/Pássaro de oculos.webp',
+                size: 77824,
+                date: new Date('2025-11-20'),
+                type: 'image/webp'
+            },  
+            {
+                name: 'Redes_Atividade Sub-redes_Clóvis.xlsx',
+                path: 'arquivos/Redes_Atividade Sub-redes_Clóvis.xlsx',
+                size: 106496,
+                date: new Date('2025-11-01'),
+                type: 'application/vnd.ms-excel'
+            },
+            {
+                name: 'Solzinho bom.png',
+                path: 'arquivos/Solzinho bom.png',
+                size: 8192,
+                date: new Date('2025-11-20'),
+                type: 'image/png'
+            },   
+        ];
+
+        let currentSort = { column: null, direction: 'asc' };
+
+        // Função para formatar tamanho do arquivo
+        function formatFileSize(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return Math.round((bytes / Math.pow(k, i)) * 100) / 100 + ' ' + sizes[i];
+        }
+
+        // Função para formatar data
+        function formatDate(date) {
+            const day = String(date.getDate()).padStart(2, '0');
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const year = date.getFullYear();
+            return `${day}/${month}/${year}`;
+        }
+
+        // Função para obter extensão do arquivo
+        function getFileExtension(filename) {
+            return filename.split('.').pop().toUpperCase();
+        }
+
+        // Renderizar tabela
+        function renderTable(data) {
+            const tbody = document.getElementById('tableBody');
+            
+            if (data.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="3" class="no-results">Nenhum arquivo encontrado</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = data.map(file => `
+                <tr>
+                    <td>
+                        <a href="${file.path}" download="${file.name}" type="${file.type}">${file.name}</a>
+                    </td>
+                    <td>${formatFileSize(file.size)}</td>
+                    <td>${formatDate(file.date)}</td>
+                </tr>
+            `).join('');
+        }
+
+        // Função de ordenação
+        function sortTable(column) {
+            const tbody = document.getElementById('tableBody');
+            const headers = document.querySelectorAll('th.sortable');
+            
+            // Atualizar direção da ordenação
+            if (currentSort.column === column) {
+                currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSort.column = column;
+                currentSort.direction = 'asc';
+            }
+
+            // Atualizar classes dos headers
+            headers.forEach(th => {
+                th.classList.remove('asc', 'desc');
+                if (th.dataset.column === column) {
+                    th.classList.add(currentSort.direction);
+                }
+            });
+
+            // Ordenar dados
+            const sortedFiles = [...files].sort((a, b) => {
+                let valA, valB;
+
+                if (column === 'name') {
+                    valA = a.name.toLowerCase();
+                    valB = b.name.toLowerCase();
+                } else if (column === 'size') {
+                    valA = a.size;
+                    valB = b.size;
+                } else if (column === 'date') {
+                    valA = a.date.getTime();
+                    valB = b.date.getTime();
+                }
+
+                if (currentSort.direction === 'asc') {
+                    return valA > valB ? 1 : valA < valB ? -1 : 0;
+                } else {
+                    return valA < valB ? 1 : valA > valB ? -1 : 0;
+                }
+            });
+
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const filteredFiles = searchTerm 
+                ? sortedFiles.filter(file => file.name.toLowerCase().includes(searchTerm))
+                : sortedFiles;
+
+            renderTable(filteredFiles);
+        }
+
+        // Busca
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            const filteredFiles = files.filter(file => 
+                file.name.toLowerCase().includes(searchTerm)
+            );
+            
+            if (currentSort.column) {
+                sortTable(currentSort.column);
+            } else {
+                renderTable(filteredFiles);
+            }
+        });
+
+        // Event listeners para ordenação
+        document.querySelectorAll('th.sortable').forEach(th => {
+            th.addEventListener('click', () => {
+                sortTable(th.dataset.column);
+            });
+        });
+
+        // Renderizar tabela inicial
+        renderTable(files);
+    </script>
+</body>
+</html>

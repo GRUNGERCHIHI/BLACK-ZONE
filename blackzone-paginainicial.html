@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Clóvis Machado">
+    <meta name="description" content="Web download archive">
+    <meta name="keywords" content="Download, Portfolio">
+    <link rel="stylesheet" href="style.css">
+    <title>Black Zone/Inicio</title>
+
+</head>
+<body>
+    <h1>BLACK ZONE</h1>
+    
+    <nav>
+        <a style="color: #f0ffff;" href="blackzone-paginainicial.html">Pagina Inicial</a>
+        <a href="blackzone-arquivos.html">Arquivos</a>
+        <a href="blackzone-chihi.html">Projetos</a>
+        <a href="pinkzone.html">PINK ZONE</a>
+    </nav>
+
+
+
+    <script>
+        function lines(){
+            let sizeW = Math.random() * 12;
+            let duration = Math.random() * 3;
+            let e = document.createElement('div');
+            e.setAttribute('class','circle');
+            document.body.appendChild(e)
+            e.style.width = 2+sizeW+'px';
+            e.style.left = Math.random() * + innerWidth + 'px';
+            e.style.animationDuration = 2 + duration+ 's';
+
+            setTimeout(function(){
+                document.body.removeChild(e)
+            },5000);
+        }
+
+
+        setInterval(function(){
+            lines();
+        },200);
+
+    </script>
+</body>
+</html>
