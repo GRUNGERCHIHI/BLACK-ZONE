@@ -199,3 +199,17 @@ a:hover {
     opacity: 0.5;
     background: linear-gradient(#0f0,transparent);
 }
+
+.content-flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.content-flex p {
+    flex: 1;
+}
+
+.container-direita {
+    flex: 1;
+}

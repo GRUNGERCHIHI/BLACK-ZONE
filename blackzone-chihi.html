@@ -20,19 +20,19 @@
 
         body {
             font-family: "Silkscreen", sans-serif;
-            height: 100vh;
+            min-height: 100vh;
             background: #000000;
             color: #ffffff;
             padding: 20px;
-            overflow: hidden;
+            overflow: auto;
         }
 
         p {
             font-family: "Silkscreen", sans-serif;
             font-size: 17px;
-            text-align: justify;
             margin-bottom: 20px;
             letter-spacing: 2px;
+            padding-left: 150px;
         }
 
         h1 {
@@ -73,15 +73,28 @@
             display: flex;
             justify-content: flex-end;
             gap: 10px;
-            margin: 20px 0;
+            margin: 20px 100px 20px 0px;
+            flex: 1;
         }
   
         .container-esquerda {
             display: flex;
             justify-content: flex-start;
             gap: 10px;
-            margin: 20px 0;
+            margin: 20px 0px 20px 100px;
+            flex: 1;
         }
+
+        .content-flex {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .content-flex p {
+            flex: 1;
+        }
+    
     </style>
 
 </head>
@@ -95,11 +108,23 @@
 
     <h2>░░▒▒▓▓█ O JOGO █▓▓▒▒░░</h2>
 
-    <p>Um jogo simples de plataforma 2D onde você controla um slime em um mundo pixelizado e em preto e branco com diversos desafios. <br>Movimente-se livremente, colete moedas, explore o mundo e evite os perigos a frente. O seu objetivo é guiar esse slime até o final de sua jornada.
+    <div class="content-flex">
+        <p>
+            Um jogo simples de plataforma 2D onde você controla um slime em um mundo pixelizado e em preto e branco com diversos desafios. <br>Movimente-se livremente, colete moedas, explore o mundo e evite os perigos a frente. O seu objetivo é guiar esse slime até o final de sua jornada.
+        </p>
         <div class="container-direita">
-            <img src="imagens/chihi-preview.png" alt="preview1" width="500" height="auto">
+            <img src="imagens/chihi-preview.png" alt="preview1" width="450" height="auto">
         </div>
-    </p>
+    </div>
+
+    <div class="content-flex">
+        <p>
+            Desenvolvido na engine Godot, sem o uso de outras ferramentas externas. O jogo é leve e pode ser jogado diretamente no navegador, sem a necessidade de downloads ou instalações adicionais.
+        </p>
+        <div class="container-esquerda">
+            <img src="imagens/chihiGIF.gif" alt="preview2" width="450" height="auto">
+        </div>
+    </div>
 
     <h2>░░▒▒▓▓█ CONTROLES █▓▓▒▒░░</h2>
 
