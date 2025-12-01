@@ -1,0 +1,75 @@
+------- LUMINESCENT -------
+    A Super Mario World
+  romhack by TheBourgyman
+
+
+A moderately hard hack.
+
+"Mario retreats to the Chroma Isles, in hope of spending some time off. But strange, deadly blocks start falling from the sky and littering the landscape. He embarks on a quest throughout the archipelago to find out what is the cause of all this."
+
+Luminescent is meant to be a fun challenge for the kaizo enthusiast who seeks to delve into tougher territory, while still being firmly intermediate in nature. It is ASM heavy, and features a plethora of custom stuff while keeping the familiar aesthetics and playability of the original game.
+
+This hack features:
+
+- Fast travel and retry
+- A linear path with no secret exits
+- Saveable checkpoints and collectibles
+- Light trolling, but no cheap tricks such as hidden blocks
+- Two endings (Any% and 100%)
+- Lots of ASM trickery.
+
+Thanks to Chondontore, Ezel, FerpyMcFrosting, Halscion, Mithrillionaire and Om_nomnom_nomnom for their assistance in making sure this hack is the best it can be.
+
+----------------
+
+Version changes:
+
+v1.02 - 2021-12-07:
+
+General:
+
+- The Bonus Stars you have gathered are now kept when saving your file!
+- The Gamer Coins now shimmer in darker levels, like they do in normal-coloured levels.
+- Fixed a glitch that allowed the player to kick items (like p-switches) in the opposite direction they're facing, while crouching.
+- Added a "no d-pad" indicator sign in Rattle Snake Desert and Fungus Fortress, to indicate neutraling on the d-pad.
+- The sprite portion of the extending Muncher blocks in Stacked Mountain and Stacked Raceway no longer has a hitbox when active (when the Muncher is extending or retreating).
+- Minor graphical fixes and edits.
+
+Level-specific:
+
+- Lavender Lagoon: Made it so the floating platform will not disappear if the player quickly swims up in the third section.
+- Rattle Snake Desert: Removed the sprite destroyer below the directional coin question block in the first half, as it will sometimes destroy the shell without triggering the question block.
+- Stacked Mountain: moved a one-way block in the second section so the beach Koopa kicks the blue shell earlier. Moved a on-off block and removed death blocks in the checkpoint room to make the whole section faster. Made a disco shell fall faster in the next section.
+- Glutton's Grove: moved the first shell well (above the message block) one tile to the right to make the blue shell easier to grab with Yoshi's tongue. The red berry (just before the second P-Balloon in the first half of the level) is now harder to miss. In the second half, removed the 1F0 and the sprite mover during the Yoshi shell jump.
+- Everwall Corridor: made it impossible to get through the disco shell gate without the Goomba. Raised the position of the Buzzy Beetles on the P-switch section (below the first checkpoint) to make the static shell jumps easier to perform. Removed a death block near the one-way gates (where you have to throw the blue shell, close to the Baby Yoshi question block).
+- Flip-Flop Fault: made an invisible sprite destroyer visible.
+- Atomic Dip Tunnel: reduced the hitbox of the Muncher sprites. Removed a ceiling tile to make the skull raft jump slightly easier. Reduced the height needed to make the jump from one Muncher to another in the sixth screen. Made the last Gamer Coin easier to see (and to reach).
+- Fungus Fortress: reworked the Chargin' Chuck ladder in the fourth section of the level.
+- Abstract Pipes: fixed a glitch that could potentially have the player stuck in a clear pipe corner.
+- Terminal Climb: put invisible walls around Mario to make it impossible to accidentally die from the Tetris pieces at the beginning of the escape sequence.
+
+
+v1.01 - 2021-11-10:
+
+General:
+
+- Introducing Speedrun Mode! If you hit the hidden message box at the top-left corner of the welcome screen (which you can reach by jumping on the blue beach Koopa or by performing a shell jump), this will activate Speedrun Mode, and allow you to skip the welcome screen. It can only be activated from a new file, and is disabled when the game is reset or reloaded from a save file.
+- When activating Speedrun mode, you can skip the credits roll by pressing L and R upon entering them. 
+- Other minor graphical and layout fixes not worth listing individually.
+
+Level-specific:
+
+- Lavender Lagoon: removed some death blocks, made the side water jumping section looser, improved signage and colour contrast.
+- Rattle Snake Desert: moved the grey platforms to make the setup with the Chuck work better, removed the second Spiny and changed some of the blocks in the second half, to make the setup less confusing.
+- Glutton's Grove: made some of the apples easier to grab in order to avoid confusion.
+- Flip-flop Fault: replaced a ceiling death block with munchers in the second half of the level, to make the obstacle more visible.
+- Atomic Dip Tunnel: made it more obvious that you should get the Gamer Coin before diving into the water, fixed garbage tiles in the last section.
+- Fungus Fortress: changed signage in the third section to show the setup better.
+- Abstract Pipes: shortened a pipe to make a falling section less blind.
+- Terminal Climb: Fixed a potentially game-crashing bug on the very last screen of the final section.
+- CMYK Palace hub: changed the appearance of the key used for the Black switch lock to make it more unique.
+- Cyan Palace: removed the possibility of performing frame-perfect high jumps, and made the setup with the yellow shell clearer.
+
+v1.00 - 2021-11-05:
+
+Initial release! Woo!

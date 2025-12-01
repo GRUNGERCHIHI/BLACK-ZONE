@@ -10,7 +10,7 @@ body {
     background: rgb(10, 10, 10);
     color: #adff2f;
     padding: 20px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 h1 {
@@ -212,4 +212,107 @@ a:hover {
 
 .container-direita {
     flex: 1;
+}
+
+/* Projects cards */
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 900px;
+    margin: 0 auto 30px;
+}
+
+.projects a {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #0b0b0b;
+    color: #adff2f;
+    text-decoration: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    padding: 0;
+}
+
+.projects a:hover {
+    transform: translateX(8px);
+    box-shadow: 0 8px 20px #adff2f;
+}
+
+.projects a img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+    flex-shrink: 0;
+}
+
+.projects .card-title {
+    display: block;
+    padding: 12px 16px 12px 0;
+    text-align: left;
+    font-size: 25px;
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        max-width: 100%;
+    }
+    .projects a {
+        flex-direction: column;
+        text-align: center;
+    }
+    .projects a img {
+        width: 100%;
+    }
+    .projects .card-title {
+        padding: 12px;
+        text-align: center;
+    }
+}
+
+/* Chihi card: exclusive style */
+.projects a.chihi-card {
+    font-family: 'Silkscreen', sans-serif;
+    border-radius: 0;
+    background: #000;
+    /* layered white outline to give a chunky / pixel-like border */
+    box-shadow: 0 0 0 3px #ffffff, 6px 6px 0 0 #ffffff, 0 10px 24px rgba(255,255,255,0.08);
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.projects a.chihi-card:hover {
+    transform: translateX(6px);
+    box-shadow: 0 0 0 3px #ffffff, 8px 8px 0 0 #ffffff, 0 12px 30px rgba(255,255,255,0.12);
+}
+
+.projects a.chihi-card img {
+    image-rendering: pixelated;
+    /* ensure the image keeps a pixel-art look */
+}
+
+.projects a.chihi-card .card-title {
+    color: #ffffff; /* make the title stand out on the white/black theme */
+}
+
+/* Big accessible video player used in projetos-roteiro */
+.big-player {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    display: block;
+    margin: 18px auto;
+    background: #000;
+    border-radius: 8px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+}
+
+/* Improve focus visibility for keyboard users */
+.big-player:focus {
+    outline: 3px solid rgba(173,255,47,0.6);
+    outline-offset: 6px;
 }
