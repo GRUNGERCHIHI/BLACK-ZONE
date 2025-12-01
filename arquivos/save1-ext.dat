@@ -1,0 +1,6929 @@
+{
+--[1]--
+{
+   ["trackers"]={2},
+   [".HUB.lvlx"]={3},
+   ["Checkpoint3"]=true,
+   ["The Secret of Hotel Magikoopa.lvlx"]={4},
+   ["Green_T.lvlx"]={5},
+   ["sophiaBoss"]={6},
+   ["Checkpoint2"]=true,
+   ["hasSeenCredits"]=true,
+   ["dayNightCycleRealLifeOffset"]=314,
+   ["FirstStart"]=true,
+   ["Lava_Laboratory.lvlx"]={7},
+   ["beatenLevels"]=207,
+   ["Into_The_Thwamp.lvlx"]={8},
+   ["__launcher"]={9},
+   ["options"]={10},
+   ["hasSeenSturg"]=true,
+   ["__costumes"]={11},
+   ["__progress"]=100,
+   ["_basegame"]={12},
+   ["A_Light_In_The_Distance.lvlx"]={13},
+   ["Windshear_Aquarium.lvlx"]={14},
+   ["Jump_Party.lvlx"]={15},
+   ["ElevatorCount"]=0,
+   ["beatenLevelMap"]={16},
+   ["Pal's Moving Castle.lvlx"]={17},
+   ["Dimension Conversion Factory.lvlx"]={18},
+   ["Fiery Permafrost.lvlx"]={19},
+   ["EnteredStagess"]={20},
+   ["cherryCountSBOL"]=0,
+   ["rememberedPlayerPosition"]={"Vector2", 21},
+   ["Toad's Rebellion In The Cityscrape.lvlx"]={22},
+   ["A Celebration.lvlx"]={23},
+   ["currentScreenFilter"]=0
+},
+--[2]--
+{
+   ["lostLives"]=958,
+   ["gainedLives"]=3041,
+   ["levels"]={24},
+   ["speedrunTimer"]=11810342
+},
+--[3]--
+{
+   ["LastTier"]=0,
+   ["UnlockIndex"]=0,
+   ["PostFirstTierX"]=true,
+   ["DeathInTier"]={25},
+   ["TierPreviouslyUnlocked"]={26}
+},
+--[4]--
+{
+   ["darknessFlag"]=false
+},
+--[5]--
+{
+   ["seeds"]={27}
+},
+--[6]--
+{
+   ["beaten"]=true,
+   ["shortcutUnlocked"]=true
+},
+--[7]--
+{
+
+},
+--[8]--
+{
+
+},
+--[9]--
+{
+
+},
+--[10]--
+{
+   ["tweak_reservefilters"]=false,
+   ["tweak_costumefilters"]=false,
+   ["display_timer"]=false,
+   ["display_input"]=true,
+   ["assist_jumps"]=false,
+   ["tweak_checkpoints"]=1,
+   ["display_motion"]=false,
+   ["tweak_filters"]=false,
+   ["tweak_restart"]=true,
+   ["display_deaths"]=false,
+   ["assist_invinc"]=false,
+   ["display_quality"]=4,
+   ["audio_music"]=38.40000000000002,
+   ["textbox_flavour"]=3,
+   ["tweak_coyote"]=false,
+   ["display_exits"]=true,
+   ["display_fps"]=false,
+   ["tweak_mountfilters"]=false,
+   ["tweak_physicspatch"]=false,
+   ["display_starcoins"]=true,
+   ["display_indicators"]=3,
+   ["tweak_powerupfilters"]=false,
+   ["display_stars"]=true,
+   ["assist_iframes"]=false
+},
+--[11]--
+{
+   ["9"]="SMW2-YOSHI"
+},
+--[12]--
+{
+   ["bigSwitch"]={28},
+   ["_characterdata"]={29},
+   ["starcoinCounter"]=71,
+   ["hud"]={30},
+   ["starcoin"]={31}
+},
+--[13]--
+{
+   ["TrueFoe"]=true
+},
+--[14]--
+{
+   ["youmu_stepshoes"]=1,
+   ["monikacutscene_end"]=1,
+   ["totalcoins"]=128,
+   ["youmu_chargedsaber"]=1,
+   ["youmu_windspirit"]=1,
+   ["splashscreen"]=true,
+   ["monikacutscene"]=1,
+   ["youmu_counter"]=0
+},
+--[15]--
+{
+
+},
+--[16]--
+{
+   ["Ancient City of Ambera.lvlx"]={32},
+   ["Fiery_Ghost_House.lvlx"]={33},
+   ["Hell.lvlx"]={34},
+   ["The_Sea_Serpents_Shrine.lvlx"]={35},
+   ["The Secret of Hotel Magikoopa.lvlx"]={36},
+   ["Anticide.lvlx"]={37},
+   ["hotsocks.lvlx"]={38},
+   ["the_level.lvlx"]={39},
+   ["Deserted Dreamscape.lvlx"]={40},
+   ["Blazing_Grindworks.lvlx"]={41},
+   ["Spaceshroom Garden.lvlx"]={42},
+   ["Demonic Gathering 2.lvlx"]={43},
+   ["Subtitle.lvlx"]={44},
+   ["New Underworld, Under Construction.lvlx"]={45},
+   ["MegaMoleMiner.lvlx"]={46},
+   ["A_Familial_Meltdown.lvlx"]={47},
+   ["Bubbling Koopas in the Natural Sky.lvlx"]={48},
+   ["Into_The_Thwamp.lvlx"]={49},
+   ["PollenSeason.lvlx"]={50},
+   ["Fiery Permafrost.lvlx"]={51},
+   ["Sisters' Symphony.lvlx"]={52},
+   ["Sabotage_the_enemy_submarine!.lvlx"]={53},
+   ["Tightfisted Temple.lvlx"]={54},
+   ["Sparkling_Blowholes.lvlx"]={55},
+   ["Pizza.lvl"]={56},
+   ["Captain Wigglys Airborne Car Wash.lvlx"]={57},
+   ["Capital_Clash.lvlx"]={58},
+   ["Mysterious_Earthquakes.lvlx"]={59},
+   ["Beware the Tiki Curse.lvlx"]={60},
+   ["Late Carnivale.lvlx"]={61},
+   ["Elite Training Floor B1.lvlx"]={62},
+   ["Chief Chuckster's Demeaning Dungeon.lvlx"]={63},
+   ["The Airestaurant.lvlx"]={64},
+   ["Camp Pyromania.lvlx"]={65},
+   ["Vacation_Ruined.lvlx"]={66},
+   ["The Ol' Switcheroo.lvl"]={67},
+   ["Mugetsu's Monotonous Mansion.lvlx"]={68},
+   ["Motor_Problems.lvlx"]={69},
+   ["Toad's Rebellion In The Cityscrape.lvlx"]={70},
+   ["Decrepit Bastion Of Greed.lvlx"]={71},
+   ["Grand Ascent Through Time.lvlx"]={72},
+   ["APeachyOdysseyatMountRex.lvlx"]={73},
+   ["Malicious_Militial_Madness.lvlx"]={74},
+   ["The Secret of the Ship Graveyard.lvlx"]={75},
+   ["SGDQ20XX.lvlx"]={76},
+   ["Trash Level.lvlx"]={77},
+   ["Taboo Treetops.lvlx"]={78},
+   ["Copycat.lvlx"]={79},
+   ["Fairy_Forest.lvlx"]={80},
+   ["Bring in the Bullets.lvl"]={81},
+   ["boom_shell_bell_shoom.lvlx"]={82},
+   ["Touchdown!.lvlx"]={83},
+   ["FissureAtVioletFalls.lvlx"]={84},
+   ["MAFAB2_SacrificePlay.lvlx"]={85},
+   ["Enormous Estuary.lvlx"]={86},
+   ["Possi_Swamp.lvlx"]={87},
+   ["The_Abandoned_Factory.lvlx"]={88},
+   ["Doctor Wily's Puzzling Trap.lvlx"]={89},
+   ["The Wreck of the S.S. Lakitu.lvlx"]={90},
+   ["Let's_Clean_A_Snowglobe.lvlx"]={91},
+   ["Wiggly Weed Marsh.lvlx"]={92},
+   ["Thicc Ninji Hell.lvlx"]={93},
+   ["Toadlevania_ Dohyo of Chronometry.lvlx"]={94},
+   ["Sawmill Sightseeing.lvlx"]={95},
+   ["Climbing_Time.lvlx"]={96},
+   ["hamburger.lvlx"]={97},
+   ["Lets_Think_About_Water_and_Rex_Part_II.lvlx"]={98},
+   ["Pansear_Zone.lvlx"]={99},
+   ["HOT!_Danger_Desert.lvlx"]={100},
+   ["Jelly-Filled Asteroids.lvl"]={101},
+   ["assortedMaddeningPokeyGreenhouse.lvlx"]={102},
+   ["Terrifying Orb in the Night Sky.lvlx"]={103},
+   ["Bounce_House_of_Rage.lvlx"]={104},
+   ["Beetlebelle Harbour.lvlx"]={105},
+   ["Soaked Spikes Situation.lvlx"]={106},
+   ["Mush's_Quest_for_Glory.lvlx"]={107},
+   ["A Celebration.lvlx"]={108},
+   ["MaGB.lvlx"]={109},
+   ["Vertiginous Path through Whimsical Skies.lvlx"]={110},
+   ["mangamario.lvl"]={111},
+   ["Structure_that_Pierces_the_Sky.lvlx"]={112},
+   ["RL Vine's Goosebumpers.lvlx"]={113},
+   ["Burning Beach.lvlx"]={114},
+   ["Dry_Dry_Dam.lvlx"]={115},
+   ["Cheepy and the Cheepfeesh.lvlx"]={116},
+   ["Mad Stone Castle.lvlx"]={117},
+   ["Boss Bot Blue(MaFAB2 Edition).lvl"]={118},
+   ["The Zoomers Howl in the Mansion Foul.lvlx"]={119},
+   ["Virtual_Dungeon_Insanity.lvl"]={120},
+   ["The Post Game.lvlx"]={121},
+   ["Tempestuous Reservoir.lvlx"]={122},
+   ["sonic the hedges hog.lvlx"]={123},
+   ["My Favorite Part About Fliprus Is Their Ability To Try To Put Out Fires With Snowballs And Fail Miserably.lvlx"]={124},
+   ["Sunbathing.lvlx"]={125},
+   ["Bowsers_underground_base.lvlx"]={126},
+   ["Warm_Level.lvlx"]={127},
+   ["GRRROL_CONTROL.lvlx"]={128},
+   ["Voclanic_Gardens.lvlx"]={129},
+   ["Bowser's Ultimate Armada.lvlx"]={130},
+   ["The Evil Tree Murderer Base.lvlx"]={131},
+   ["Circus_Longing_Waddle_Doo_in_Panoramic.lvlx"]={132},
+   ["The_Bridge_on_the_Sun.lvlx"]={133},
+   ["Shyspring_Streets_Acceptable_County_Fair.lvlx"]={134},
+   ["Uwaah!! This hot springs is so hot!!!.lvlx"]={135},
+   ["Baby's 1st Boss.lvlx"]={136},
+   ["Butwhythe_Volcano.lvlx"]={137},
+   ["Devkit Bosses.lvlx"]={138},
+   ["Insert Title Here Later.lvlx"]={139},
+   ["Gloom_Lagoon.lvlx"]={140},
+   ["Professor Largemustache.lvlx"]={141},
+   ["Global_Warring.lvlx"]={142},
+   ["Ice Bridge.lvl"]={143},
+   ["These_Are_Shy_Guys.lvlx"]={144},
+   ["A_Light_In_The_Distance.lvlx"]={145},
+   ["Ponty_Mython_and_the_Grrroly_Hail.lvlx"]={146},
+   ["Desert_Reign_Frog.lvlx"]={147},
+   ["Windshear_Aquarium.lvlx"]={148},
+   ["Prickly Predicament.lvlx"]={149},
+   ["Jump_Party.lvlx"]={150},
+   ["ValsValiantChase.lvlx"]={151},
+   ["Sunken Temple of the Coast.lvlx"]={152},
+   ["Gamy_means_pertaining_to_games,_right.lvlx"]={153},
+   ["Facility_in_the_Far_North.lvlx"]={154},
+   ["Goo Lagoon.lvlx"]={155},
+   ["Sturgirex Blast.lvlx"]={156},
+   ["Opposite_Force.lvlx"]={157},
+   ["Herbal_Heights.lvlx"]={158},
+   ["i_accidentally_uploaded_a_whole_palace_whoops.lvlx"]={159},
+   ["Mind Over Matter.lvlx"]={160},
+   ["sophia.lvlx"]={161},
+   ["Lazily_Made_Lagoon.lvlx"]={162},
+   ["Rocky Rocky Run.lvl"]={163},
+   ["Telekinetic Aquarium.lvl"]={164},
+   ["A_Place_Further_Than_Mario_Galaxy.lvl"]={165},
+   ["A Fuzzy Feeling.lvlx"]={166},
+   ["Abandoned_Fortress.lvlx"]={167},
+   ["SPIKED_CAKEWALK.lvlx"]={168},
+   ["Big_Steely_Power_Plant.lvlx"]={169},
+   ["Masked Cathedral.lvlx"]={170},
+   ["Green_T.lvlx"]={171},
+   ["Mario's Fire-Flurry Rave.lvlx"]={172},
+   ["Boney_Beetle_and_Fighterflys_Deviant_Underground.lvlx"]={173},
+   ["kamirex_blast.lvlx"]={174},
+   ["Prize_of_Phantasmal_Peak.lvlx"]={175},
+   ["Engine Room.lvlx"]={176},
+   ["too many rivers.lvl"]={177},
+   ["BloopTV.lvlx"]={178},
+   ["Time of the Tweeter.lvlx"]={179},
+   ["Madden_666_AD.lvlx"]={180},
+   ["Monty Mole & Supply Co.lvlx"]={181},
+   ["Volcano_Canyon.lvlx"]={182},
+   ["Frozen_Sushi_Scavenge.lvlx"]={183},
+   ["Extreme_Dentistry.lvlx"]={184},
+   ["Rockfall_Mine.lvlx"]={185},
+   ["demosmagicalchase.lvlx"]={186},
+   ["Shy_Guy_Fuel.lvlx"]={187},
+   ["The Frozen Dimensions.lvl"]={188},
+   ["Chase The Moon.lvlx"]={189},
+   ["The Great Bank Heist.lvlx"]={190},
+   ["Transistasis.lvlx"]={191},
+   ["Zatsu_ArsenalLibraryComplex.lvlx"]={192},
+   ["Mole_Work_Site.lvlx"]={193},
+   ["Freezy_Carnival.lvlx"]={194},
+   ["The Secret Library of Ohm.lvlx"]={195},
+   ["Test Level.lvlx"]={196},
+   ["Lava_Laboratory.lvlx"]={197},
+   ["Neon_Dreams.lvlx"]={198},
+   ["Ghost_Path.lvlx"]={199},
+   ["Linedancin'.lvlx"]={200},
+   ["fate_of_the_arthropods.lvlx"]={201},
+   ["Lord Chuckington's Mine.lvlx"]={202},
+   ["Planet 8547531036471692843971348.lvl"]={203},
+   ["l l.lvlx"]={204},
+   ["Crumbling World, Crumbling Time.lvlx"]={205},
+   ["The Greatest Hits.lvlx"]={206},
+   ["Defrost_Dessert.lvlx"]={207},
+   ["The Time-Worn Castle of the Sea.lvlx"]={208},
+   ["Secretive Spectre Stadium.lvlx"]={209},
+   ["IntoTheStorm.lvlx"]={210},
+   ["no escape.lvlx"]={211},
+   ["squarsh.lvlx"]={212},
+   ["Twilight_Lighthouse.lvlx"]={213},
+   ["Midnight_Climb.lvlx"]={214},
+   ["VR_Mission.lvlx"]={215},
+   ["The Solarean Highlands.lvl"]={216},
+   ["BridgeCrossing.lvlx"]={217},
+   ["Nostalgic Venomous Rainforest.lvlx"]={218},
+   ["Pal's Moving Castle.lvlx"]={219},
+   ["Mold_Digger.lvlx"]={220},
+   ["I Always Knew I Wasn't Made For Sports.lvlx"]={221},
+   ["Boo-ze_Adventure.lvlx"]={222},
+   ["Boom Boom's Concern of the Bot Population is Ill and Overbearing.lvlx"]={223},
+   ["Blade_Bowling.lvlx"]={224},
+   ["Poised_Pokeys_Treehouse_Maze.lvlx"]={225},
+   ["The Carnival in the Grass.lvl"]={226},
+   ["Dimension Conversion Factory.lvlx"]={227}
+},
+--[17]--
+{
+   ["died"]=1,
+   ["SHEEP"]=1,
+   ["CheckPointLayer"]="Outside Zlock",
+   ["BURN"]=0
+},
+--[18]--
+{
+
+},
+--[19]--
+{
+   ["MaxMPTable"]={228},
+   ["CurrentHPTable"]={229},
+   ["coins"]=1652343,
+   ["levelTable"]={230},
+   ["CurrentEXP"]={231},
+   ["MaxHPTable"]={232},
+   ["NextEXP"]={233},
+   ["CurrentMPTable"]={234},
+   ["CharacterIndex"]={235},
+   ["t"]=8637,
+   ["ItemAmmount"]={236}
+},
+--[20]--
+{
+   ["Ancient City of Ambera.lvlx"]=true,
+   ["Fiery_Ghost_House.lvlx"]=true,
+   ["i_accidentally_uploaded_a_whole_palace_whoops.lvlx"]=true,
+   ["Ghost_Path.lvlx"]=true,
+   ["The Secret of Hotel Magikoopa.lvlx"]=true,
+   ["Anticide.lvlx"]=true,
+   ["hotsocks.lvlx"]=true,
+   ["the_level.lvlx"]=true,
+   ["Freezy_Carnival.lvlx"]=true,
+   ["Blazing_Grindworks.lvlx"]=true,
+   ["Neon_Dreams.lvlx"]=true,
+   ["Demonic Gathering 2.lvlx"]=true,
+   ["A Fuzzy Feeling.lvlx"]=true,
+   ["New Underworld, Under Construction.lvlx"]=true,
+   ["MegaMoleMiner.lvlx"]=true,
+   ["A_Familial_Meltdown.lvlx"]=true,
+   ["Bubbling Koopas in the Natural Sky.lvlx"]=true,
+   ["Into_The_Thwamp.lvlx"]=true,
+   ["PollenSeason.lvlx"]=true,
+   ["Fiery Permafrost.lvlx"]=true,
+   ["kamirex_blast.lvlx"]=true,
+   ["Sabotage_the_enemy_submarine!.lvlx"]=true,
+   ["The Carnival in the Grass.lvl"]=true,
+   ["Sparkling_Blowholes.lvlx"]=true,
+   ["Pizza.lvl"]=true,
+   ["Captain Wigglys Airborne Car Wash.lvlx"]=true,
+   ["Capital_Clash.lvlx"]=true,
+   ["Lazily_Made_Lagoon.lvlx"]=true,
+   ["Beware the Tiki Curse.lvlx"]=true,
+   ["Late Carnivale.lvlx"]=true,
+   ["Elite Training Floor B1.lvlx"]=true,
+   ["Chief Chuckster's Demeaning Dungeon.lvlx"]=true,
+   ["The Airestaurant.lvlx"]=true,
+   ["Camp Pyromania.lvlx"]=true,
+   ["Vacation_Ruined.lvlx"]=true,
+   ["Warm_Level.lvlx"]=true,
+   ["IntoTheStorm.lvlx"]=true,
+   ["Motor_Problems.lvlx"]=true,
+   ["Toad's Rebellion In The Cityscrape.lvlx"]=true,
+   ["Decrepit Bastion Of Greed.lvlx"]=true,
+   ["Grand Ascent Through Time.lvlx"]=true,
+   ["APeachyOdysseyatMountRex.lvlx"]=true,
+   ["Malicious_Militial_Madness.lvlx"]=true,
+   ["The Secret of the Ship Graveyard.lvlx"]=true,
+   ["SGDQ20XX.lvlx"]=true,
+   ["Trash Level.lvlx"]=true,
+   ["Taboo Treetops.lvlx"]=true,
+   ["GRRROL_CONTROL.lvlx"]=true,
+   ["Fairy_Forest.lvlx"]=true,
+   ["Bring in the Bullets.lvl"]=true,
+   ["boom_shell_bell_shoom.lvlx"]=true,
+   ["Touchdown!.lvlx"]=true,
+   ["FissureAtVioletFalls.lvlx"]=true,
+   ["MAFAB2_SacrificePlay.lvlx"]=true,
+   ["Enormous Estuary.lvlx"]=true,
+   ["Possi_Swamp.lvlx"]=true,
+   ["The_Abandoned_Factory.lvlx"]=true,
+   ["Doctor Wily's Puzzling Trap.lvlx"]=true,
+   ["The Wreck of the S.S. Lakitu.lvlx"]=true,
+   ["Let's_Clean_A_Snowglobe.lvlx"]=true,
+   ["Prize_of_Phantasmal_Peak.lvlx"]=true,
+   ["Thicc Ninji Hell.lvlx"]=true,
+   ["Toadlevania_ Dohyo of Chronometry.lvlx"]=true,
+   ["Sawmill Sightseeing.lvlx"]=true,
+   ["Climbing_Time.lvlx"]=true,
+   ["hamburger.lvlx"]=true,
+   ["Lets_Think_About_Water_and_Rex_Part_II.lvlx"]=true,
+   ["Pansear_Zone.lvlx"]=true,
+   ["HOT!_Danger_Desert.lvlx"]=true,
+   ["ValsValiantChase.lvlx"]=true,
+   ["Boom Boom's Concern of the Bot Population is Ill and Overbearing.lvlx"]=true,
+   ["Beetlebelle Harbour.lvlx"]=true,
+   ["Mysterious_Earthquakes.lvlx"]=true,
+   ["Herbal_Heights.lvlx"]=true,
+   ["Boo-ze_Adventure.lvlx"]=true,
+   ["Mold_Digger.lvlx"]=true,
+   ["Mush's_Quest_for_Glory.lvlx"]=true,
+   ["RL Vine's Goosebumpers.lvlx"]=true,
+   ["Copycat.lvlx"]=true,
+   ["Vertiginous Path through Whimsical Skies.lvlx"]=true,
+   ["Goo Lagoon.lvlx"]=true,
+   ["Green_T.lvlx"]=true,
+   ["A Celebration.lvlx"]=true,
+   ["Burning Beach.lvlx"]=true,
+   ["Dry_Dry_Dam.lvlx"]=true,
+   ["mangamario.lvl"]=true,
+   ["Bowsers_underground_base.lvlx"]=true,
+   ["Boss Bot Blue(MaFAB2 Edition).lvl"]=true,
+   ["The Zoomers Howl in the Mansion Foul.lvlx"]=true,
+   ["Mad Stone Castle.lvlx"]=true,
+   ["The Post Game.lvlx"]=true,
+   ["Tempestuous Reservoir.lvlx"]=true,
+   ["sonic the hedges hog.lvlx"]=true,
+   ["Engine Room.lvlx"]=true,
+   ["Circus_Longing_Waddle_Doo_in_Panoramic.lvlx"]=true,
+   ["Baby's 1st Boss.lvlx"]=true,
+   ["The_Bridge_on_the_Sun.lvlx"]=true,
+   ["Mugetsu's Monotonous Mansion.lvlx"]=true,
+   ["Voclanic_Gardens.lvlx"]=true,
+   ["Bowser's Ultimate Armada.lvlx"]=true,
+   ["The Evil Tree Murderer Base.lvlx"]=true,
+   ["The Ol' Switcheroo.lvl"]=true,
+   ["Insert Title Here Later.lvlx"]=true,
+   ["Shyspring_Streets_Acceptable_County_Fair.lvlx"]=true,
+   ["Uwaah!! This hot springs is so hot!!!.lvlx"]=true,
+   ["Cheepy and the Cheepfeesh.lvlx"]=true,
+   ["Butwhythe_Volcano.lvlx"]=true,
+   ["Devkit Bosses.lvlx"]=true,
+   ["Defrost_Dessert.lvlx"]=true,
+   ["Gloom_Lagoon.lvlx"]=true,
+   ["Professor Largemustache.lvlx"]=true,
+   ["Global_Warring.lvlx"]=true,
+   ["Virtual_Dungeon_Insanity.lvl"]=true,
+   ["Crumbling World, Crumbling Time.lvlx"]=true,
+   ["A_Light_In_The_Distance.lvlx"]=true,
+   ["Gamy_means_pertaining_to_games,_right.lvlx"]=true,
+   ["Desert_Reign_Frog.lvlx"]=true,
+   ["Windshear_Aquarium.lvlx"]=true,
+   ["Prickly Predicament.lvlx"]=true,
+   ["Jump_Party.lvlx"]=true,
+   ["Jelly-Filled Asteroids.lvl"]=true,
+   ["Sunken Temple of the Coast.lvlx"]=true,
+   ["assortedMaddeningPokeyGreenhouse.lvlx"]=true,
+   ["Facility_in_the_Far_North.lvlx"]=true,
+   ["sophia.lvlx"]=true,
+   ["Sturgirex Blast.lvlx"]=true,
+   ["fate_of_the_arthropods.lvlx"]=true,
+   ["Bounce_House_of_Rage.lvlx"]=true,
+   ["Hell.lvlx"]=true,
+   ["Mind Over Matter.lvlx"]=true,
+   ["Lava_Laboratory.lvlx"]=true,
+   ["Lord Chuckington's Mine.lvlx"]=true,
+   ["Test Level.lvlx"]=true,
+   ["Telekinetic Aquarium.lvl"]=true,
+   ["A_Place_Further_Than_Mario_Galaxy.lvl"]=true,
+   ["Sisters' Symphony.lvlx"]=true,
+   ["Masked Cathedral.lvlx"]=true,
+   ["SPIKED_CAKEWALK.lvlx"]=true,
+   ["Big_Steely_Power_Plant.lvlx"]=true,
+   ["Abandoned_Fortress.lvlx"]=true,
+   ["The_Sea_Serpents_Shrine.lvlx"]=true,
+   ["Wiggly Weed Marsh.lvlx"]=true,
+   ["Boney_Beetle_and_Fighterflys_Deviant_Underground.lvlx"]=true,
+   ["Shy_Guy_Fuel.lvlx"]=true,
+   ["Deserted Dreamscape.lvlx"]=true,
+   ["My Favorite Part About Fliprus Is Their Ability To Try To Put Out Fires With Snowballs And Fail Miserably.lvlx"]=true,
+   ["Monty Mole & Supply Co.lvlx"]=true,
+   ["BloopTV.lvlx"]=true,
+   ["Time of the Tweeter.lvlx"]=true,
+   ["Madden_666_AD.lvlx"]=true,
+   ["too many rivers.lvl"]=true,
+   ["Volcano_Canyon.lvlx"]=true,
+   ["Frozen_Sushi_Scavenge.lvlx"]=true,
+   ["demosmagicalchase.lvlx"]=true,
+   ["Rockfall_Mine.lvlx"]=true,
+   ["Extreme_Dentistry.lvlx"]=true,
+   ["Mole_Work_Site.lvlx"]=true,
+   ["Chase The Moon.lvlx"]=true,
+   ["Transistasis.lvlx"]=true,
+   ["The Great Bank Heist.lvlx"]=true,
+   ["The Frozen Dimensions.lvl"]=true,
+   ["Zatsu_ArsenalLibraryComplex.lvlx"]=true,
+   ["Structure_that_Pierces_the_Sky.lvlx"]=true,
+   ["The Secret Library of Ohm.lvlx"]=true,
+   ["Mario's Fire-Flurry Rave.lvlx"]=true,
+   ["Bad Level.lvl"]=true,
+   ["Opposite_Force.lvlx"]=true,
+   ["Terrifying Orb in the Night Sky.lvlx"]=true,
+   ["Subtitle.lvlx"]=true,
+   ["Linedancin'.lvlx"]=true,
+   ["Rocky Rocky Run.lvl"]=true,
+   ["Spaceshroom Garden.lvlx"]=true,
+   ["Planet 8547531036471692843971348.lvl"]=true,
+   ["l l.lvlx"]=true,
+   ["Ponty_Mython_and_the_Grrroly_Hail.lvlx"]=true,
+   ["The Greatest Hits.lvlx"]=true,
+   ["Ice Bridge.lvl"]=true,
+   ["The Time-Worn Castle of the Sea.lvlx"]=true,
+   ["Secretive Spectre Stadium.lvlx"]=true,
+   ["These_Are_Shy_Guys.lvlx"]=true,
+   ["no escape.lvlx"]=true,
+   ["VR_Mission.lvlx"]=true,
+   ["Twilight_Lighthouse.lvlx"]=true,
+   ["Midnight_Climb.lvlx"]=true,
+   ["Sunbathing.lvlx"]=true,
+   ["The Solarean Highlands.lvl"]=true,
+   ["BridgeCrossing.lvlx"]=true,
+   ["Nostalgic Venomous Rainforest.lvlx"]=true,
+   ["Pal's Moving Castle.lvlx"]=true,
+   ["squarsh.lvlx"]=true,
+   ["I Always Knew I Wasn't Made For Sports.lvlx"]=true,
+   ["MaGB.lvlx"]=true,
+   ["Soaked Spikes Situation.lvlx"]=true,
+   ["Blade_Bowling.lvlx"]=true,
+   ["Poised_Pokeys_Treehouse_Maze.lvlx"]=true,
+   ["Tightfisted Temple.lvlx"]=true,
+   ["Dimension Conversion Factory.lvlx"]=true
+},
+--[21]--
+{
+   "60232:60220"
+},
+--[22]--
+{
+   ["StarCoin2Collected"]=true,
+   ["StarCoin5Collected"]=true,
+   ["StarCoin4Collected"]=true
+},
+--[23]--
+{
+
+},
+--[24]--
+{
+   ["Ancient City of Ambera.lvlx"]={237},
+   [".HUB.lvlx"]={238},
+   ["Hell.lvlx"]={239},
+   ["The_Sea_Serpents_Shrine.lvlx"]={240},
+   ["The Secret of Hotel Magikoopa.lvlx"]={241},
+   ["Anticide.lvlx"]={242},
+   ["hotsocks.lvlx"]={243},
+   ["the_level.lvlx"]={244},
+   ["Freezy_Carnival.lvlx"]={245},
+   ["Blazing_Grindworks.lvlx"]={246},
+   ["sophia.lvlx"]={247},
+   ["Demonic Gathering 2.lvlx"]={248},
+   ["Subtitle.lvlx"]={249},
+   ["New Underworld, Under Construction.lvlx"]={250},
+   ["MegaMoleMiner.lvlx"]={251},
+   ["A_Familial_Meltdown.lvlx"]={252},
+   ["Bubbling Koopas in the Natural Sky.lvlx"]={253},
+   ["Into_The_Thwamp.lvlx"]={254},
+   ["PollenSeason.lvlx"]={255},
+   ["Fiery Permafrost.lvlx"]={256},
+   ["assortedMaddeningPokeyGreenhouse.lvlx"]={257},
+   ["Sabotage_the_enemy_submarine!.lvlx"]={258},
+   ["Tightfisted Temple.lvlx"]={259},
+   ["Sparkling_Blowholes.lvlx"]={260},
+   ["Pizza.lvl"]={261},
+   ["Captain Wigglys Airborne Car Wash.lvlx"]={262},
+   ["Capital_Clash.lvlx"]={263},
+   ["Mysterious_Earthquakes.lvlx"]={264},
+   ["Virtual_Dungeon_Insanity.lvl"]={265},
+   ["Late Carnivale.lvlx"]={266},
+   ["Elite Training Floor B1.lvlx"]={267},
+   ["Chief Chuckster's Demeaning Dungeon.lvlx"]={268},
+   ["The Airestaurant.lvlx"]={269},
+   ["Camp Pyromania.lvlx"]={270},
+   ["Vacation_Ruined.lvlx"]={271},
+   ["The Ol' Switcheroo.lvl"]={272},
+   ["squarsh.lvlx"]={273},
+   ["Motor_Problems.lvlx"]={274},
+   ["Toad's Rebellion In The Cityscrape.lvlx"]={275},
+   ["Decrepit Bastion Of Greed.lvlx"]={276},
+   ["Grand Ascent Through Time.lvlx"]={277},
+   ["APeachyOdysseyatMountRex.lvlx"]={278},
+   ["Malicious_Militial_Madness.lvlx"]={279},
+   ["The Secret of the Ship Graveyard.lvlx"]={280},
+   ["SGDQ20XX.lvlx"]={281},
+   ["Trash Level.lvlx"]={282},
+   ["Taboo Treetops.lvlx"]={283},
+   ["GRRROL_CONTROL.lvlx"]={284},
+   ["Fairy_Forest.lvlx"]={285},
+   ["Bring in the Bullets.lvl"]={286},
+   ["boom_shell_bell_shoom.lvlx"]={287},
+   ["Touchdown!.lvlx"]={288},
+   ["FissureAtVioletFalls.lvlx"]={289},
+   ["Bowsers_underground_base.lvlx"]={290},
+   ["Enormous Estuary.lvlx"]={291},
+   ["Possi_Swamp.lvlx"]={292},
+   ["The_Abandoned_Factory.lvlx"]={293},
+   ["Doctor Wily's Puzzling Trap.lvlx"]={294},
+   ["The Wreck of the S.S. Lakitu.lvlx"]={295},
+   ["Let's_Clean_A_Snowglobe.lvlx"]={296},
+   ["Prize_of_Phantasmal_Peak.lvlx"]={297},
+   ["Thicc Ninji Hell.lvlx"]={298},
+   ["Toadlevania_ Dohyo of Chronometry.lvlx"]={299},
+   ["Sawmill Sightseeing.lvlx"]={300},
+   ["Climbing_Time.lvlx"]={301},
+   ["hamburger.lvlx"]={302},
+   ["Lets_Think_About_Water_and_Rex_Part_II.lvlx"]={303},
+   ["Pansear_Zone.lvlx"]={304},
+   ["Gloom_Lagoon.lvlx"]={305},
+   ["HOT!_Danger_Desert.lvlx"]={306},
+   ["Global_Warring.lvlx"]={307},
+   ["Desert_Reign_Frog.lvlx"]={308},
+   ["Lazily_Made_Lagoon.lvlx"]={309},
+   ["Sisters' Symphony.lvlx"]={310},
+   ["Copycat.lvlx"]={311},
+   ["RL Vine's Goosebumpers.lvlx"]={312},
+   ["The_Bridge_on_the_Sun.lvlx"]={313},
+   ["Mario's Fire-Flurry Rave.lvlx"]={314},
+   ["Circus_Longing_Waddle_Doo_in_Panoramic.lvlx"]={315},
+   ["Mugetsu's Monotonous Mansion.lvlx"]={316},
+   ["Vertiginous Path through Whimsical Skies.lvlx"]={317},
+   ["VR_Mission.lvlx"]={318},
+   ["Structure_that_Pierces_the_Sky.lvlx"]={319},
+   ["Dry_Dry_Dam.lvlx"]={320},
+   ["Burning Beach.lvlx"]={321},
+   ["Terrifying Orb in the Night Sky.lvlx"]={322},
+   ["Goo Lagoon.lvlx"]={323},
+   ["Sunbathing.lvlx"]={324},
+   ["Boss Bot Blue(MaFAB2 Edition).lvl"]={325},
+   ["The Zoomers Howl in the Mansion Foul.lvlx"]={326},
+   ["Mad Stone Castle.lvlx"]={327},
+   ["The Post Game.lvlx"]={328},
+   ["Tempestuous Reservoir.lvlx"]={329},
+   ["sonic the hedges hog.lvlx"]={330},
+   ["Engine Room.lvlx"]={331},
+   ["Mush's_Quest_for_Glory.lvlx"]={332},
+   ["MAFAB2_SacrificePlay.lvlx"]={333},
+   ["Beware the Tiki Curse.lvlx"]={334},
+   ["These_Are_Shy_Guys.lvlx"]={335},
+   ["Voclanic_Gardens.lvlx"]={336},
+   ["Bowser's Ultimate Armada.lvlx"]={337},
+   ["The Evil Tree Murderer Base.lvlx"]={338},
+   ["The Time-Worn Castle of the Sea.lvlx"]={339},
+   ["Ice Bridge.lvl"]={340},
+   ["Shyspring_Streets_Acceptable_County_Fair.lvlx"]={341},
+   ["Mold_Digger.lvlx"]={342},
+   ["Baby's 1st Boss.lvlx"]={343},
+   ["A Celebration.lvlx"]={344},
+   ["Devkit Bosses.lvlx"]={345},
+   ["Butwhythe_Volcano.lvlx"]={346},
+   ["Boo-ze_Adventure.lvlx"]={347},
+   ["Professor Largemustache.lvlx"]={348},
+   ["MaGB.lvlx"]={349},
+   ["Crumbling World, Crumbling Time.lvlx"]={350},
+   ["Gamy_means_pertaining_to_games,_right.lvlx"]={351},
+   ["A_Light_In_The_Distance.lvlx"]={352},
+   ["Boom Boom's Concern of the Bot Population is Ill and Overbearing.lvlx"]={353},
+   ["Beetlebelle Harbour.lvlx"]={354},
+   ["Windshear_Aquarium.lvlx"]={355},
+   ["Prickly Predicament.lvlx"]={356},
+   ["Jump_Party.lvlx"]={357},
+   ["ValsValiantChase.lvlx"]={358},
+   ["Sunken Temple of the Coast.lvlx"]={359},
+   ["Spaceshroom Garden.lvlx"]={360},
+   ["Facility_in_the_Far_North.lvlx"]={361},
+   ["Herbal_Heights.lvlx"]={362},
+   ["Sturgirex Blast.lvlx"]={363},
+   ["Opposite_Force.lvlx"]={364},
+   ["Bounce_House_of_Rage.lvlx"]={365},
+   ["Jelly-Filled Asteroids.lvl"]={366},
+   ["Mind Over Matter.lvlx"]={367},
+   ["fate_of_the_arthropods.lvlx"]={368},
+   ["i_accidentally_uploaded_a_whole_palace_whoops.lvlx"]={369},
+   ["Fiery_Ghost_House.lvlx"]={370},
+   ["Telekinetic Aquarium.lvl"]={371},
+   ["A_Place_Further_Than_Mario_Galaxy.lvl"]={372},
+   ["A Fuzzy Feeling.lvlx"]={373},
+   ["Masked Cathedral.lvlx"]={374},
+   ["SPIKED_CAKEWALK.lvlx"]={375},
+   ["Big_Steely_Power_Plant.lvlx"]={376},
+   ["Abandoned_Fortress.lvlx"]={377},
+   ["Ghost_Path.lvlx"]={378},
+   ["Boney_Beetle_and_Fighterflys_Deviant_Underground.lvlx"]={379},
+   ["The Secret Library of Ohm.lvlx"]={380},
+   ["Mole_Work_Site.lvlx"]={381},
+   ["My Favorite Part About Fliprus Is Their Ability To Try To Put Out Fires With Snowballs And Fail Miserably.lvlx"]={382},
+   ["Deserted Dreamscape.lvlx"]={383},
+   ["Shy_Guy_Fuel.lvlx"]={384},
+   ["BloopTV.lvlx"]={385},
+   ["Time of the Tweeter.lvlx"]={386},
+   ["too many rivers.lvl"]={387},
+   ["Transistasis.lvlx"]={388},
+   ["Madden_666_AD.lvlx"]={389},
+   ["Frozen_Sushi_Scavenge.lvlx"]={390},
+   ["demosmagicalchase.lvlx"]={391},
+   ["Rockfall_Mine.lvlx"]={392},
+   ["Extreme_Dentistry.lvlx"]={393},
+   ["Chase The Moon.lvlx"]={394},
+   ["Volcano_Canyon.lvlx"]={395},
+   ["Monty Mole & Supply Co.lvlx"]={396},
+   ["The Great Bank Heist.lvlx"]={397},
+   ["kamirex_blast.lvlx"]={398},
+   ["Zatsu_ArsenalLibraryComplex.lvlx"]={399},
+   ["Lord Chuckington's Mine.lvlx"]={400},
+   ["Wiggly Weed Marsh.lvlx"]={401},
+   ["Bad Level.lvl"]={402},
+   ["Green_T.lvlx"]={403},
+   ["Rocky Rocky Run.lvl"]={404},
+   ["Lava_Laboratory.lvlx"]={405},
+   ["The Carnival in the Grass.lvl"]={406},
+   ["Linedancin'.lvlx"]={407},
+   ["Soaked Spikes Situation.lvlx"]={408},
+   ["Test Level.lvlx"]={409},
+   ["Planet 8547531036471692843971348.lvl"]={410},
+   ["l l.lvlx"]={411},
+   ["Ponty_Mython_and_the_Grrroly_Hail.lvlx"]={412},
+   ["The Greatest Hits.lvlx"]={413},
+   ["Defrost_Dessert.lvlx"]={414},
+   ["Insert Title Here Later.lvlx"]={415},
+   ["Secretive Spectre Stadium.lvlx"]={416},
+   ["Uwaah!! This hot springs is so hot!!!.lvlx"]={417},
+   ["no escape.lvlx"]={418},
+   ["The Frozen Dimensions.lvl"]={419},
+   ["Twilight_Lighthouse.lvlx"]={420},
+   ["Midnight_Climb.lvlx"]={421},
+   ["Warm_Level.lvlx"]={422},
+   ["The Solarean Highlands.lvl"]={423},
+   ["BridgeCrossing.lvlx"]={424},
+   ["Nostalgic Venomous Rainforest.lvlx"]={425},
+   ["Pal's Moving Castle.lvlx"]={426},
+   ["Cheepy and the Cheepfeesh.lvlx"]={427},
+   ["I Always Knew I Wasn't Made For Sports.lvlx"]={428},
+   ["IntoTheStorm.lvlx"]={429},
+   ["mangamario.lvl"]={430},
+   ["Blade_Bowling.lvlx"]={431},
+   ["Poised_Pokeys_Treehouse_Maze.lvlx"]={432},
+   ["Neon_Dreams.lvlx"]={433},
+   ["Dimension Conversion Factory.lvlx"]={434}
+},
+--[25]--
+{
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   [0]=true
+},
+--[26]--
+{
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   [0]=true
+},
+--[27]--
+{
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+},
+--[28]--
+{
+
+},
+--[29]--
+{
+   ["8"]={435},
+   ["10"]={436},
+   ["9"]={437},
+   ["6"]={438},
+   ["16"]={439},
+   ["11"]={440},
+   ["12"]={441},
+   ["7"]={442},
+   ["15"]={443},
+   ["13"]={444},
+   ["14"]={445}
+},
+--[30]--
+{
+   ["score"]=6271690
+},
+--[31]--
+{
+   ["Ancient City of Ambera.lvlx"]={446},
+   [".HUB.lvlx"]={447},
+   ["i_accidentally_uploaded_a_whole_palace_whoops.lvlx"]={448},
+   ["The_Sea_Serpents_Shrine.lvlx"]={449},
+   ["The Secret of Hotel Magikoopa.lvlx"]={450},
+   ["Anticide.lvlx"]={451},
+   ["hotsocks.lvlx"]={452},
+   ["the_level.lvlx"]={453},
+   ["Deserted Dreamscape.lvlx"]={454},
+   ["Lord Chuckington's Mine.lvlx"]={455},
+   ["sophia.lvlx"]={456},
+   ["Demonic Gathering 2.lvlx"]={457},
+   ["A Fuzzy Feeling.lvlx"]={458},
+   ["New Underworld, Under Construction.lvlx"]={459},
+   ["MegaMoleMiner.lvlx"]={460},
+   ["A_Familial_Meltdown.lvlx"]={461},
+   ["Bubbling Koopas in the Natural Sky.lvlx"]={462},
+   ["Into_The_Thwamp.lvlx"]={463},
+   ["PollenSeason.lvlx"]={464},
+   ["Fiery Permafrost.lvlx"]={465},
+   ["Sisters' Symphony.lvlx"]={466},
+   ["Sabotage_the_enemy_submarine!.lvlx"]={467},
+   ["Tightfisted Temple.lvlx"]={468},
+   ["Sparkling_Blowholes.lvlx"]={469},
+   ["Pizza.lvl"]={470},
+   ["Captain Wigglys Airborne Car Wash.lvlx"]={471},
+   ["Capital_Clash.lvlx"]={472},
+   ["Mysterious_Earthquakes.lvlx"]={473},
+   ["Beware the Tiki Curse.lvlx"]={474},
+   ["Late Carnivale.lvlx"]={475},
+   ["Elite Training Floor B1.lvlx"]={476},
+   ["Chief Chuckster's Demeaning Dungeon.lvlx"]={477},
+   ["The Airestaurant.lvlx"]={478},
+   ["Camp Pyromania.lvlx"]={479},
+   ["Vacation_Ruined.lvlx"]={480},
+   ["Warm_Level.lvlx"]={481},
+   ["squarsh.lvlx"]={482},
+   ["Motor_Problems.lvlx"]={483},
+   ["Toad's Rebellion In The Cityscrape.lvlx"]={484},
+   ["Decrepit Bastion Of Greed.lvlx"]={485},
+   ["The_Bridge_on_the_Sun.lvlx"]={486},
+   ["APeachyOdysseyatMountRex.lvlx"]={487},
+   ["Malicious_Militial_Madness.lvlx"]={488},
+   ["The Secret of the Ship Graveyard.lvlx"]={489},
+   ["SGDQ20XX.lvlx"]={490},
+   ["Trash Level.lvlx"]={491},
+   ["Taboo Treetops.lvlx"]={492},
+   ["Copycat.lvlx"]={493},
+   ["Fairy_Forest.lvlx"]={494},
+   ["Bring in the Bullets.lvl"]={495},
+   ["boom_shell_bell_shoom.lvlx"]={496},
+   ["Touchdown!.lvlx"]={497},
+   ["FissureAtVioletFalls.lvlx"]={498},
+   ["Bowsers_underground_base.lvlx"]={499},
+   ["Sunbathing.lvlx"]={500},
+   ["Possi_Swamp.lvlx"]={501},
+   ["The_Abandoned_Factory.lvlx"]={502},
+   ["Doctor Wily's Puzzling Trap.lvlx"]={503},
+   ["The Wreck of the S.S. Lakitu.lvlx"]={504},
+   ["Let's_Clean_A_Snowglobe.lvlx"]={505},
+   ["The Frozen Dimensions.lvl"]={506},
+   ["Thicc Ninji Hell.lvlx"]={507},
+   ["Toadlevania_ Dohyo of Chronometry.lvlx"]={508},
+   ["Sawmill Sightseeing.lvlx"]={509},
+   ["Climbing_Time.lvlx"]={510},
+   ["hamburger.lvlx"]={511},
+   ["Lets_Think_About_Water_and_Rex_Part_II.lvlx"]={512},
+   ["Pansear_Zone.lvlx"]={513},
+   ["Rocky Rocky Run.lvl"]={514},
+   ["HOT!_Danger_Desert.lvlx"]={515},
+   ["The Carnival in the Grass.lvl"]={516},
+   ["Boom Boom's Concern of the Bot Population is Ill and Overbearing.lvlx"]={517},
+   ["MaGB.lvlx"]={518},
+   ["Uwaah!! This hot springs is so hot!!!.lvlx"]={519},
+   ["Blazing_Grindworks.lvlx"]={520},
+   ["Mugetsu's Monotonous Mansion.lvlx"]={521},
+   ["IntoTheStorm.lvlx"]={522},
+   ["Mush's_Quest_for_Glory.lvlx"]={523},
+   ["Baby's 1st Boss.lvlx"]={524},
+   ["Prize_of_Phantasmal_Peak.lvlx"]={525},
+   ["Vertiginous Path through Whimsical Skies.lvlx"]={526},
+   ["Virtual_Dungeon_Insanity.lvl"]={527},
+   ["Structure_that_Pierces_the_Sky.lvlx"]={528},
+   ["Jelly-Filled Asteroids.lvl"]={529},
+   ["Burning Beach.lvlx"]={530},
+   ["Terrifying Orb in the Night Sky.lvlx"]={531},
+   ["Dry_Dry_Dam.lvlx"]={532},
+   ["Grand Ascent Through Time.lvlx"]={533},
+   ["Boss Bot Blue(MaFAB2 Edition).lvl"]={534},
+   ["The Zoomers Howl in the Mansion Foul.lvlx"]={535},
+   ["mangamario.lvl"]={536},
+   ["The Post Game.lvlx"]={537},
+   ["Tempestuous Reservoir.lvlx"]={538},
+   ["sonic the hedges hog.lvlx"]={539},
+   ["My Favorite Part About Fliprus Is Their Ability To Try To Put Out Fires With Snowballs And Fail Miserably.lvlx"]={540},
+   ["Fiery_Ghost_House.lvlx"]={541},
+   ["Opposite_Force.lvlx"]={542},
+   ["Freezy_Carnival.lvlx"]={543},
+   ["Planet 8547531036471692843971348.lvl"]={544},
+   ["Voclanic_Gardens.lvlx"]={545},
+   ["Bowser's Ultimate Armada.lvlx"]={546},
+   ["The Evil Tree Murderer Base.lvlx"]={547},
+   ["The Time-Worn Castle of the Sea.lvlx"]={548},
+   ["Defrost_Dessert.lvlx"]={549},
+   ["Shyspring_Streets_Acceptable_County_Fair.lvlx"]={550},
+   ["Mold_Digger.lvlx"]={551},
+   ["Cheepy and the Cheepfeesh.lvlx"]={552},
+   ["A Celebration.lvlx"]={553},
+   ["Devkit Bosses.lvlx"]={554},
+   ["Circus_Longing_Waddle_Doo_in_Panoramic.lvlx"]={555},
+   ["Gloom_Lagoon.lvlx"]={556},
+   ["Professor Largemustache.lvlx"]={557},
+   ["Global_Warring.lvlx"]={558},
+   ["Ponty_Mython_and_the_Grrroly_Hail.lvlx"]={559},
+   ["l l.lvlx"]={560},
+   ["A_Light_In_The_Distance.lvlx"]={561},
+   ["Subtitle.lvlx"]={562},
+   ["Beetlebelle Harbour.lvlx"]={563},
+   ["Windshear_Aquarium.lvlx"]={564},
+   ["Prickly Predicament.lvlx"]={565},
+   ["Jump_Party.lvlx"]={566},
+   ["ValsValiantChase.lvlx"]={567},
+   ["Sunken Temple of the Coast.lvlx"]={568},
+   ["Neon_Dreams.lvlx"]={569},
+   ["Facility_in_the_Far_North.lvlx"]={570},
+   ["Ghost_Path.lvlx"]={571},
+   ["Sturgirex Blast.lvlx"]={572},
+   ["fate_of_the_arthropods.lvlx"]={573},
+   ["Soaked Spikes Situation.lvlx"]={574},
+   ["RL Vine's Goosebumpers.lvlx"]={575},
+   ["Mind Over Matter.lvlx"]={576},
+   ["Goo Lagoon.lvlx"]={577},
+   ["Bounce_House_of_Rage.lvlx"]={578},
+   ["Herbal_Heights.lvlx"]={579},
+   ["Telekinetic Aquarium.lvl"]={580},
+   ["A_Place_Further_Than_Mario_Galaxy.lvl"]={581},
+   ["GRRROL_CONTROL.lvlx"]={582},
+   ["Masked Cathedral.lvlx"]={583},
+   ["SPIKED_CAKEWALK.lvlx"]={584},
+   ["Big_Steely_Power_Plant.lvlx"]={585},
+   ["Abandoned_Fortress.lvlx"]={586},
+   ["Mole_Work_Site.lvlx"]={587},
+   ["Bad Level.lvl"]={588},
+   ["The Secret Library of Ohm.lvlx"]={589},
+   ["Lava_Laboratory.lvlx"]={590},
+   ["These_Are_Shy_Guys.lvlx"]={591},
+   ["Enormous Estuary.lvlx"]={592},
+   ["Test Level.lvlx"]={593},
+   ["BloopTV.lvlx"]={594},
+   ["Time of the Tweeter.lvlx"]={595},
+   ["too many rivers.lvl"]={596},
+   ["Transistasis.lvlx"]={597},
+   ["Volcano_Canyon.lvlx"]={598},
+   ["Frozen_Sushi_Scavenge.lvlx"]={599},
+   ["Rockfall_Mine.lvlx"]={600},
+   ["Chase The Moon.lvlx"]={601},
+   ["demosmagicalchase.lvlx"]={602},
+   ["Extreme_Dentistry.lvlx"]={603},
+   ["Madden_666_AD.lvlx"]={604},
+   ["Monty Mole & Supply Co.lvlx"]={605},
+   ["The Great Bank Heist.lvlx"]={606},
+   ["Engine Room.lvlx"]={607},
+   ["Zatsu_ArsenalLibraryComplex.lvlx"]={608},
+   ["Boney_Beetle_and_Fighterflys_Deviant_Underground.lvlx"]={609},
+   ["Mario's Fire-Flurry Rave.lvlx"]={610},
+   ["Shy_Guy_Fuel.lvlx"]={611},
+   ["VR_Mission.lvlx"]={612},
+   ["Mad Stone Castle.lvlx"]={613},
+   ["MAFAB2_SacrificePlay.lvlx"]={614},
+   ["Lazily_Made_Lagoon.lvlx"]={615},
+   ["Linedancin'.lvlx"]={616},
+   ["Hell.lvlx"]={617},
+   ["Spaceshroom Garden.lvlx"]={618},
+   ["kamirex_blast.lvlx"]={619},
+   ["Gamy_means_pertaining_to_games,_right.lvlx"]={620},
+   ["Crumbling World, Crumbling Time.lvlx"]={621},
+   ["The Greatest Hits.lvlx"]={622},
+   ["Ice Bridge.lvl"]={623},
+   ["Insert Title Here Later.lvlx"]={624},
+   ["Secretive Spectre Stadium.lvlx"]={625},
+   ["Wiggly Weed Marsh.lvlx"]={626},
+   ["no escape.lvlx"]={627},
+   ["The Ol' Switcheroo.lvl"]={628},
+   ["Twilight_Lighthouse.lvlx"]={629},
+   ["Midnight_Climb.lvlx"]={630},
+   ["Butwhythe_Volcano.lvlx"]={631},
+   ["The Solarean Highlands.lvl"]={632},
+   ["BridgeCrossing.lvlx"]={633},
+   ["Nostalgic Venomous Rainforest.lvlx"]={634},
+   ["Pal's Moving Castle.lvlx"]={635},
+   ["Green_T.lvlx"]={636},
+   ["I Always Knew I Wasn't Made For Sports.lvlx"]={637},
+   ["Boo-ze_Adventure.lvlx"]={638},
+   ["Desert_Reign_Frog.lvlx"]={639},
+   ["Blade_Bowling.lvlx"]={640},
+   ["Poised_Pokeys_Treehouse_Maze.lvlx"]={641},
+   ["assortedMaddeningPokeyGreenhouse.lvlx"]={642},
+   ["Dimension Conversion Factory.lvlx"]={643}
+},
+--[32]--
+{
+   ["sections"]={644},
+   ["count"]=2,
+   ["uniqueExits"]=1
+},
+--[33]--
+{
+   ["sections"]={645},
+   ["count"]=2,
+   ["uniqueExits"]=2
+},
+--[34]--
+{
+   ["sections"]={646},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[35]--
+{
+   ["sections"]={647},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[36]--
+{
+   ["sections"]={648},
+   ["count"]=3,
+   ["uniqueExits"]=2
+},
+--[37]--
+{
+   ["sections"]={649},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[38]--
+{
+   ["sections"]={650},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[39]--
+{
+   ["sections"]={651},
+   ["count"]=2,
+   ["uniqueExits"]=2
+},
+--[40]--
+{
+   ["sections"]={652},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[41]--
+{
+   ["sections"]={653},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[42]--
+{
+   ["sections"]={654},
+   ["count"]=2,
+   ["uniqueExits"]=1
+},
+--[43]--
+{
+   ["sections"]={655},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[44]--
+{
+   ["sections"]={656},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[45]--
+{
+   ["sections"]={657},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[46]--
+{
+   ["sections"]={658},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[47]--
+{
+   ["sections"]={659},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[48]--
+{
+   ["sections"]={660},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[49]--
+{
+   ["sections"]={661},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[50]--
+{
+   ["sections"]={662},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[51]--
+{
+   ["sections"]={663},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[52]--
+{
+   ["sections"]={664},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[53]--
+{
+   ["sections"]={665},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[54]--
+{
+   ["sections"]={666},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[55]--
+{
+   ["sections"]={667},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[56]--
+{
+   ["sections"]={668},
+   ["count"]=2,
+   ["uniqueExits"]=1
+},
+--[57]--
+{
+   ["sections"]={669},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[58]--
+{
+   ["sections"]={670},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[59]--
+{
+   ["sections"]={671},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[60]--
+{
+   ["sections"]={672},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[61]--
+{
+   ["sections"]={673},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[62]--
+{
+   ["sections"]={674},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[63]--
+{
+   ["sections"]={675},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[64]--
+{
+   ["sections"]={676},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[65]--
+{
+   ["sections"]={677},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[66]--
+{
+   ["sections"]={678},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[67]--
+{
+   ["sections"]={679},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[68]--
+{
+   ["sections"]={680},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[69]--
+{
+   ["sections"]={681},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[70]--
+{
+   ["sections"]={682},
+   ["count"]=2,
+   ["uniqueExits"]=1
+},
+--[71]--
+{
+   ["sections"]={683},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[72]--
+{
+   ["sections"]={684},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[73]--
+{
+   ["sections"]={685},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[74]--
+{
+   ["sections"]={686},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[75]--
+{
+   ["sections"]={687},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[76]--
+{
+   ["sections"]={688},
+   ["count"]=2,
+   ["uniqueExits"]=1
+},
+--[77]--
+{
+   ["sections"]={689},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[78]--
+{
+   ["sections"]={690},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[79]--
+{
+   ["sections"]={691},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[80]--
+{
+   ["sections"]={692},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[81]--
+{
+   ["sections"]={693},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[82]--
+{
+   ["sections"]={694},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[83]--
+{
+   ["sections"]={695},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[84]--
+{
+   ["sections"]={696},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[85]--
+{
+   ["sections"]={697},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[86]--
+{
+   ["sections"]={698},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[87]--
+{
+   ["sections"]={699},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[88]--
+{
+   ["sections"]={700},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[89]--
+{
+   ["sections"]={701},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[90]--
+{
+   ["sections"]={702},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[91]--
+{
+   ["sections"]={703},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[92]--
+{
+   ["sections"]={704},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[93]--
+{
+   ["sections"]={705},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[94]--
+{
+   ["sections"]={706},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[95]--
+{
+   ["sections"]={707},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[96]--
+{
+   ["sections"]={708},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[97]--
+{
+   ["sections"]={709},
+   ["count"]=3,
+   ["uniqueExits"]=1
+},
+--[98]--
+{
+   ["sections"]={710},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[99]--
+{
+   ["sections"]={711},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[100]--
+{
+   ["sections"]={712},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[101]--
+{
+   ["sections"]={713},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[102]--
+{
+   ["sections"]={714},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[103]--
+{
+   ["sections"]={715},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[104]--
+{
+   ["sections"]={716},
+   ["count"]=2,
+   ["uniqueExits"]=2
+},
+--[105]--
+{
+   ["sections"]={717},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[106]--
+{
+   ["sections"]={718},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[107]--
+{
+   ["sections"]={719},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[108]--
+{
+   ["sections"]={720},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[109]--
+{
+   ["sections"]={721},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[110]--
+{
+   ["sections"]={722},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[111]--
+{
+   ["sections"]={723},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[112]--
+{
+   ["sections"]={724},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[113]--
+{
+   ["sections"]={725},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[114]--
+{
+   ["sections"]={726},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[115]--
+{
+   ["sections"]={727},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[116]--
+{
+   ["sections"]={728},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[117]--
+{
+   ["sections"]={729},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[118]--
+{
+   ["sections"]={730},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[119]--
+{
+   ["sections"]={731},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[120]--
+{
+   ["sections"]={732},
+   ["count"]=2,
+   ["uniqueExits"]=1
+},
+--[121]--
+{
+   ["sections"]={733},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[122]--
+{
+   ["sections"]={734},
+   ["count"]=2,
+   ["uniqueExits"]=1
+},
+--[123]--
+{
+   ["sections"]={735},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[124]--
+{
+   ["sections"]={736},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[125]--
+{
+   ["sections"]={737},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[126]--
+{
+   ["sections"]={738},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[127]--
+{
+   ["sections"]={739},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[128]--
+{
+   ["sections"]={740},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[129]--
+{
+   ["sections"]={741},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[130]--
+{
+   ["sections"]={742},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[131]--
+{
+   ["sections"]={743},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[132]--
+{
+   ["sections"]={744},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[133]--
+{
+   ["sections"]={745},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[134]--
+{
+   ["sections"]={746},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[135]--
+{
+   ["sections"]={747},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[136]--
+{
+   ["sections"]={748},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[137]--
+{
+   ["sections"]={749},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[138]--
+{
+   ["sections"]={750},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[139]--
+{
+   ["sections"]={751},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[140]--
+{
+   ["sections"]={752},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[141]--
+{
+   ["sections"]={753},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[142]--
+{
+   ["sections"]={754},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[143]--
+{
+   ["sections"]={755},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[144]--
+{
+   ["sections"]={756},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[145]--
+{
+   ["sections"]={757},
+   ["count"]=2,
+   ["uniqueExits"]=2
+},
+--[146]--
+{
+   ["sections"]={758},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[147]--
+{
+   ["sections"]={759},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[148]--
+{
+   ["sections"]={760},
+   ["count"]=2,
+   ["uniqueExits"]=1
+},
+--[149]--
+{
+   ["sections"]={761},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[150]--
+{
+   ["sections"]={762},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[151]--
+{
+   ["sections"]={763},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[152]--
+{
+   ["sections"]={764},
+   ["count"]=2,
+   ["uniqueExits"]=2
+},
+--[153]--
+{
+   ["sections"]={765},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[154]--
+{
+   ["sections"]={766},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[155]--
+{
+   ["sections"]={767},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[156]--
+{
+   ["sections"]={768},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[157]--
+{
+   ["sections"]={769},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[158]--
+{
+   ["sections"]={770},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[159]--
+{
+   ["sections"]={771},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[160]--
+{
+   ["sections"]={772},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[161]--
+{
+   ["sections"]={773},
+   ["count"]=2,
+   ["uniqueExits"]=2
+},
+--[162]--
+{
+   ["sections"]={774},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[163]--
+{
+   ["sections"]={775},
+   ["count"]=2,
+   ["uniqueExits"]=1
+},
+--[164]--
+{
+   ["sections"]={776},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[165]--
+{
+   ["sections"]={777},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[166]--
+{
+   ["sections"]={778},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[167]--
+{
+   ["sections"]={779},
+   ["count"]=2,
+   ["uniqueExits"]=1
+},
+--[168]--
+{
+   ["sections"]={780},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[169]--
+{
+   ["sections"]={781},
+   ["count"]=2,
+   ["uniqueExits"]=2
+},
+--[170]--
+{
+   ["sections"]={782},
+   ["count"]=2,
+   ["uniqueExits"]=1
+},
+--[171]--
+{
+   ["sections"]={783},
+   ["count"]=2,
+   ["uniqueExits"]=1
+},
+--[172]--
+{
+   ["sections"]={784},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[173]--
+{
+   ["sections"]={785},
+   ["count"]=3,
+   ["uniqueExits"]=1
+},
+--[174]--
+{
+   ["sections"]={786},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[175]--
+{
+   ["sections"]={787},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[176]--
+{
+   ["sections"]={788},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[177]--
+{
+   ["sections"]={789},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[178]--
+{
+   ["sections"]={790},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[179]--
+{
+   ["sections"]={791},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[180]--
+{
+   ["sections"]={792},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[181]--
+{
+   ["sections"]={793},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[182]--
+{
+   ["sections"]={794},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[183]--
+{
+   ["sections"]={795},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[184]--
+{
+   ["sections"]={796},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[185]--
+{
+   ["sections"]={797},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[186]--
+{
+   ["sections"]={798},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[187]--
+{
+   ["sections"]={799},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[188]--
+{
+   ["sections"]={800},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[189]--
+{
+   ["sections"]={801},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[190]--
+{
+   ["sections"]={802},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[191]--
+{
+   ["sections"]={803},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[192]--
+{
+   ["sections"]={804},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[193]--
+{
+   ["sections"]={805},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[194]--
+{
+   ["sections"]={806},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[195]--
+{
+   ["sections"]={807},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[196]--
+{
+   ["sections"]={808},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[197]--
+{
+   ["sections"]={809},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[198]--
+{
+   ["sections"]={810},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[199]--
+{
+   ["sections"]={811},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[200]--
+{
+   ["sections"]={812},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[201]--
+{
+   ["sections"]={813},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[202]--
+{
+   ["sections"]={814},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[203]--
+{
+   ["sections"]={815},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[204]--
+{
+   ["sections"]={816},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[205]--
+{
+   ["sections"]={817},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[206]--
+{
+   ["sections"]={818},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[207]--
+{
+   ["sections"]={819},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[208]--
+{
+   ["sections"]={820},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[209]--
+{
+   ["sections"]={821},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[210]--
+{
+   ["sections"]={822},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[211]--
+{
+   ["sections"]={823},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[212]--
+{
+   ["sections"]={824},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[213]--
+{
+   ["sections"]={825},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[214]--
+{
+   ["sections"]={826},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[215]--
+{
+   ["sections"]={827},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[216]--
+{
+   ["sections"]={828},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[217]--
+{
+   ["sections"]={829},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[218]--
+{
+   ["sections"]={830},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[219]--
+{
+   ["sections"]={831},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[220]--
+{
+   ["sections"]={832},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[221]--
+{
+   ["sections"]={833},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[222]--
+{
+   ["sections"]={834},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[223]--
+{
+   ["sections"]={835},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[224]--
+{
+   ["sections"]={836},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[225]--
+{
+   ["sections"]={837},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[226]--
+{
+   ["sections"]={838},
+   ["count"]=1,
+   ["uniqueExits"]=1
+},
+--[227]--
+{
+   ["sections"]={839},
+   ["count"]=3,
+   ["uniqueExits"]=1
+},
+--[228]--
+{
+   961,
+   2174,
+   1307,
+   4873,
+   9999,
+   1673,
+   3417
+},
+--[229]--
+{
+   7361,
+   26793,
+   10067,
+   15842,
+   98573,
+   16341,
+   43243
+},
+--[230]--
+{
+   73,
+   194,
+   128,
+   163,
+   998,
+   167,
+   255
+},
+--[231]--
+{
+   41035,
+   94235,
+   64323,
+   79235,
+   999537,
+   74326,
+   95762
+},
+--[232]--
+{
+   7361,
+   26793,
+   10067,
+   15842,
+   98573,
+   16341,
+   43243
+},
+--[233]--
+{
+   43257,
+   97623,
+   67739,
+   83467,
+   999999,
+   85326,
+   103534
+},
+--[234]--
+{
+   961,
+   2174,
+   1307,
+   4873,
+   9999,
+   1673,
+   3417
+},
+--[235]--
+{
+   0,
+   2,
+   3,
+   4,
+   -1,
+   6,
+   7,
+   0,
+   0,
+   0,
+   0,
+   0,
+   [0]=1
+},
+--[236]--
+{
+   20,
+   5,
+   1,
+   1,
+   0,
+   4,
+   0,
+   0,
+   4,
+   0,
+   2,
+   1,
+   1,
+   0,
+   0,
+   4
+},
+--[237]--
+{
+   ["bestTime"]=14016,
+   ["storedCheckpointTime"]=0
+},
+--[238]--
+{
+   ["bestTime"]=-1,
+   ["storedCheckpointTime"]=0
+},
+--[239]--
+{
+   ["bestTime"]=10068,
+   ["storedCheckpointTime"]=0
+},
+--[240]--
+{
+   ["bestTime"]=28443,
+   ["storedCheckpointTime"]=17672
+},
+--[241]--
+{
+   ["bestTime"]=2448,
+   ["storedCheckpointTime"]=0
+},
+--[242]--
+{
+   ["bestTime"]=24735,
+   ["storedCheckpointTime"]=13791
+},
+--[243]--
+{
+   ["bestTime"]=8766,
+   ["storedCheckpointTime"]=8766
+},
+--[244]--
+{
+   ["bestTime"]=13766,
+   ["storedCheckpointTime"]=61780
+},
+--[245]--
+{
+   ["bestTime"]=42419,
+   ["storedCheckpointTime"]=22984
+},
+--[246]--
+{
+   ["bestTime"]=10509,
+   ["storedCheckpointTime"]=0
+},
+--[247]--
+{
+   ["bestTime"]=2895,
+   ["storedCheckpointTime"]=0
+},
+--[248]--
+{
+   ["bestTime"]=28744,
+   ["storedCheckpointTime"]=11606
+},
+--[249]--
+{
+   ["bestTime"]=42240,
+   ["storedCheckpointTime"]=32460
+},
+--[250]--
+{
+   ["bestTime"]=26037,
+   ["storedCheckpointTime"]=16521
+},
+--[251]--
+{
+   ["bestTime"]=5235,
+   ["storedCheckpointTime"]=0
+},
+--[252]--
+{
+   ["bestTime"]=641,
+   ["storedCheckpointTime"]=0
+},
+--[253]--
+{
+   ["bestTime"]=18014,
+   ["storedCheckpointTime"]=8664
+},
+--[254]--
+{
+   ["bestTime"]=51745,
+   ["storedCheckpointTime"]=40154
+},
+--[255]--
+{
+   ["bestTime"]=53883,
+   ["storedCheckpointTime"]=49386
+},
+--[256]--
+{
+   ["bestTime"]=280,
+   ["storedCheckpointTime"]=0
+},
+--[257]--
+{
+   ["bestTime"]=8125,
+   ["storedCheckpointTime"]=5686
+},
+--[258]--
+{
+   ["bestTime"]=30971,
+   ["storedCheckpointTime"]=0
+},
+--[259]--
+{
+   ["bestTime"]=21001,
+   ["storedCheckpointTime"]=11834
+},
+--[260]--
+{
+   ["bestTime"]=25759,
+   ["storedCheckpointTime"]=19853
+},
+--[261]--
+{
+   ["bestTime"]=19104,
+   ["storedCheckpointTime"]=0
+},
+--[262]--
+{
+   ["bestTime"]=4900,
+   ["storedCheckpointTime"]=0
+},
+--[263]--
+{
+   ["bestTime"]=13012,
+   ["storedCheckpointTime"]=7850
+},
+--[264]--
+{
+   ["bestTime"]=19705,
+   ["storedCheckpointTime"]=0
+},
+--[265]--
+{
+   ["bestTime"]=11766,
+   ["storedCheckpointTime"]=0
+},
+--[266]--
+{
+   ["bestTime"]=2962,
+   ["storedCheckpointTime"]=0
+},
+--[267]--
+{
+   ["bestTime"]=3864,
+   ["storedCheckpointTime"]=0
+},
+--[268]--
+{
+   ["bestTime"]=38416,
+   ["storedCheckpointTime"]=26592
+},
+--[269]--
+{
+   ["bestTime"]=114007,
+   ["storedCheckpointTime"]=109236
+},
+--[270]--
+{
+   ["bestTime"]=44298,
+   ["storedCheckpointTime"]=41016
+},
+--[271]--
+{
+   ["bestTime"]=3574,
+   ["storedCheckpointTime"]=0
+},
+--[272]--
+{
+   ["bestTime"]=2970,
+   ["storedCheckpointTime"]=0
+},
+--[273]--
+{
+   ["bestTime"]=2794,
+   ["storedCheckpointTime"]=0
+},
+--[274]--
+{
+   ["bestTime"]=5520,
+   ["storedCheckpointTime"]=0
+},
+--[275]--
+{
+   ["bestTime"]=46437,
+   ["storedCheckpointTime"]=0
+},
+--[276]--
+{
+   ["bestTime"]=12354,
+   ["storedCheckpointTime"]=0
+},
+--[277]--
+{
+   ["bestTime"]=22855,
+   ["storedCheckpointTime"]=17012
+},
+--[278]--
+{
+   ["bestTime"]=39917,
+   ["storedCheckpointTime"]=0
+},
+--[279]--
+{
+   ["bestTime"]=1396,
+   ["storedCheckpointTime"]=0
+},
+--[280]--
+{
+   ["bestTime"]=33078,
+   ["storedCheckpointTime"]=29305
+},
+--[281]--
+{
+   ["bestTime"]=33323,
+   ["storedCheckpointTime"]=0
+},
+--[282]--
+{
+   ["bestTime"]=30869,
+   ["storedCheckpointTime"]=0
+},
+--[283]--
+{
+   ["bestTime"]=71567,
+   ["storedCheckpointTime"]=61140
+},
+--[284]--
+{
+   ["bestTime"]=27781,
+   ["storedCheckpointTime"]=0
+},
+--[285]--
+{
+   ["bestTime"]=19854,
+   ["storedCheckpointTime"]=0
+},
+--[286]--
+{
+   ["bestTime"]=31620,
+   ["storedCheckpointTime"]=0
+},
+--[287]--
+{
+   ["bestTime"]=10771,
+   ["storedCheckpointTime"]=0
+},
+--[288]--
+{
+   ["bestTime"]=64114,
+   ["storedCheckpointTime"]=60678
+},
+--[289]--
+{
+   ["bestTime"]=21642,
+   ["storedCheckpointTime"]=0
+},
+--[290]--
+{
+   ["bestTime"]=14627,
+   ["storedCheckpointTime"]=0
+},
+--[291]--
+{
+   ["bestTime"]=11384,
+   ["storedCheckpointTime"]=0
+},
+--[292]--
+{
+   ["bestTime"]=41777,
+   ["storedCheckpointTime"]=34944
+},
+--[293]--
+{
+   ["bestTime"]=13172,
+   ["storedCheckpointTime"]=0
+},
+--[294]--
+{
+   ["bestTime"]=13227,
+   ["storedCheckpointTime"]=0
+},
+--[295]--
+{
+   ["bestTime"]=10062,
+   ["storedCheckpointTime"]=0
+},
+--[296]--
+{
+   ["bestTime"]=24370,
+   ["storedCheckpointTime"]=21392
+},
+--[297]--
+{
+   ["bestTime"]=19890,
+   ["storedCheckpointTime"]=12322
+},
+--[298]--
+{
+   ["bestTime"]=8072,
+   ["storedCheckpointTime"]=0
+},
+--[299]--
+{
+   ["bestTime"]=16388,
+   ["storedCheckpointTime"]=10839
+},
+--[300]--
+{
+   ["bestTime"]=10062,
+   ["storedCheckpointTime"]=0
+},
+--[301]--
+{
+   ["bestTime"]=55495,
+   ["storedCheckpointTime"]=48017
+},
+--[302]--
+{
+   ["bestTime"]=6489,
+   ["storedCheckpointTime"]=15713
+},
+--[303]--
+{
+   ["bestTime"]=38007,
+   ["storedCheckpointTime"]=31549
+},
+--[304]--
+{
+   ["bestTime"]=62894,
+   ["storedCheckpointTime"]=54586
+},
+--[305]--
+{
+   ["bestTime"]=9649,
+   ["storedCheckpointTime"]=0
+},
+--[306]--
+{
+   ["bestTime"]=11802,
+   ["storedCheckpointTime"]=0
+},
+--[307]--
+{
+   ["bestTime"]=38725,
+   ["storedCheckpointTime"]=0
+},
+--[308]--
+{
+   ["bestTime"]=6086,
+   ["storedCheckpointTime"]=0
+},
+--[309]--
+{
+   ["bestTime"]=4012,
+   ["storedCheckpointTime"]=0
+},
+--[310]--
+{
+   ["bestTime"]=27755,
+   ["storedCheckpointTime"]=0
+},
+--[311]--
+{
+   ["bestTime"]=13477,
+   ["storedCheckpointTime"]=0
+},
+--[312]--
+{
+   ["bestTime"]=42083,
+   ["storedCheckpointTime"]=37447
+},
+--[313]--
+{
+   ["bestTime"]=12654,
+   ["storedCheckpointTime"]=0
+},
+--[314]--
+{
+   ["bestTime"]=10846,
+   ["storedCheckpointTime"]=0
+},
+--[315]--
+{
+   ["bestTime"]=54613,
+   ["storedCheckpointTime"]=47217
+},
+--[316]--
+{
+   ["bestTime"]=32179,
+   ["storedCheckpointTime"]=0
+},
+--[317]--
+{
+   ["bestTime"]=67737,
+   ["storedCheckpointTime"]=58572
+},
+--[318]--
+{
+   ["bestTime"]=4797,
+   ["storedCheckpointTime"]=0
+},
+--[319]--
+{
+   ["bestTime"]=5012,
+   ["storedCheckpointTime"]=0
+},
+--[320]--
+{
+   ["bestTime"]=32978,
+   ["storedCheckpointTime"]=24435
+},
+--[321]--
+{
+   ["bestTime"]=19479,
+   ["storedCheckpointTime"]=0
+},
+--[322]--
+{
+   ["bestTime"]=28331,
+   ["storedCheckpointTime"]=0
+},
+--[323]--
+{
+   ["bestTime"]=69738,
+   ["storedCheckpointTime"]=52686
+},
+--[324]--
+{
+   ["bestTime"]=39060,
+   ["storedCheckpointTime"]=24622
+},
+--[325]--
+{
+   ["bestTime"]=2858,
+   ["storedCheckpointTime"]=0
+},
+--[326]--
+{
+   ["bestTime"]=12755,
+   ["storedCheckpointTime"]=3806
+},
+--[327]--
+{
+   ["bestTime"]=9731,
+   ["storedCheckpointTime"]=0
+},
+--[328]--
+{
+   ["bestTime"]=10231,
+   ["storedCheckpointTime"]=3822
+},
+--[329]--
+{
+   ["bestTime"]=28881,
+   ["storedCheckpointTime"]=0
+},
+--[330]--
+{
+   ["bestTime"]=8563,
+   ["storedCheckpointTime"]=0
+},
+--[331]--
+{
+   ["bestTime"]=33832,
+   ["storedCheckpointTime"]=29343
+},
+--[332]--
+{
+   ["bestTime"]=40366,
+   ["storedCheckpointTime"]=34880
+},
+--[333]--
+{
+   ["bestTime"]=35202,
+   ["storedCheckpointTime"]=27038
+},
+--[334]--
+{
+   ["bestTime"]=68554,
+   ["storedCheckpointTime"]=44158
+},
+--[335]--
+{
+   ["bestTime"]=5991,
+   ["storedCheckpointTime"]=0
+},
+--[336]--
+{
+   ["bestTime"]=5080,
+   ["storedCheckpointTime"]=0
+},
+--[337]--
+{
+   ["bestTime"]=75951,
+   ["storedCheckpointTime"]=54787
+},
+--[338]--
+{
+   ["bestTime"]=64250,
+   ["storedCheckpointTime"]=54998
+},
+--[339]--
+{
+   ["bestTime"]=33945,
+   ["storedCheckpointTime"]=0
+},
+--[340]--
+{
+   ["bestTime"]=5905,
+   ["storedCheckpointTime"]=0
+},
+--[341]--
+{
+   ["bestTime"]=30962,
+   ["storedCheckpointTime"]=26852
+},
+--[342]--
+{
+   ["bestTime"]=12320,
+   ["storedCheckpointTime"]=0
+},
+--[343]--
+{
+   ["bestTime"]=4881,
+   ["storedCheckpointTime"]=0
+},
+--[344]--
+{
+   ["bestTime"]=45892,
+   ["storedCheckpointTime"]=36349
+},
+--[345]--
+{
+   ["bestTime"]=18958,
+   ["storedCheckpointTime"]=15759
+},
+--[346]--
+{
+   ["bestTime"]=13268,
+   ["storedCheckpointTime"]=0
+},
+--[347]--
+{
+   ["bestTime"]=79874,
+   ["storedCheckpointTime"]=64464
+},
+--[348]--
+{
+   ["bestTime"]=6162,
+   ["storedCheckpointTime"]=0
+},
+--[349]--
+{
+   ["bestTime"]=62660,
+   ["storedCheckpointTime"]=0
+},
+--[350]--
+{
+   ["bestTime"]=77021,
+   ["storedCheckpointTime"]=74253
+},
+--[351]--
+{
+   ["bestTime"]=9375,
+   ["storedCheckpointTime"]=0
+},
+--[352]--
+{
+   ["bestTime"]=3949,
+   ["storedCheckpointTime"]=0
+},
+--[353]--
+{
+   ["bestTime"]=63449,
+   ["storedCheckpointTime"]=53942
+},
+--[354]--
+{
+   ["bestTime"]=7551,
+   ["storedCheckpointTime"]=0
+},
+--[355]--
+{
+   ["bestTime"]=19263,
+   ["storedCheckpointTime"]=0
+},
+--[356]--
+{
+   ["bestTime"]=25566,
+   ["storedCheckpointTime"]=18147
+},
+--[357]--
+{
+   ["bestTime"]=65089,
+   ["storedCheckpointTime"]=46863
+},
+--[358]--
+{
+   ["bestTime"]=3262,
+   ["storedCheckpointTime"]=0
+},
+--[359]--
+{
+   ["bestTime"]=22518,
+   ["storedCheckpointTime"]=13134
+},
+--[360]--
+{
+   ["bestTime"]=20908,
+   ["storedCheckpointTime"]=0
+},
+--[361]--
+{
+   ["bestTime"]=28798,
+   ["storedCheckpointTime"]=15194
+},
+--[362]--
+{
+   ["bestTime"]=12175,
+   ["storedCheckpointTime"]=0
+},
+--[363]--
+{
+   ["bestTime"]=468,
+   ["storedCheckpointTime"]=0
+},
+--[364]--
+{
+   ["bestTime"]=20439,
+   ["storedCheckpointTime"]=13555
+},
+--[365]--
+{
+   ["bestTime"]=6433,
+   ["storedCheckpointTime"]=0
+},
+--[366]--
+{
+   ["bestTime"]=47164,
+   ["storedCheckpointTime"]=41894
+},
+--[367]--
+{
+   ["bestTime"]=85563,
+   ["storedCheckpointTime"]=83930
+},
+--[368]--
+{
+   ["bestTime"]=4779,
+   ["storedCheckpointTime"]=0
+},
+--[369]--
+{
+   ["bestTime"]=42414,
+   ["storedCheckpointTime"]=36231
+},
+--[370]--
+{
+   ["bestTime"]=16193,
+   ["storedCheckpointTime"]=0
+},
+--[371]--
+{
+   ["bestTime"]=10290,
+   ["storedCheckpointTime"]=0
+},
+--[372]--
+{
+   ["bestTime"]=1373,
+   ["storedCheckpointTime"]=0
+},
+--[373]--
+{
+   ["bestTime"]=26208,
+   ["storedCheckpointTime"]=0
+},
+--[374]--
+{
+   ["bestTime"]=26560,
+   ["storedCheckpointTime"]=21804
+},
+--[375]--
+{
+   ["bestTime"]=50157,
+   ["storedCheckpointTime"]=43004
+},
+--[376]--
+{
+   ["bestTime"]=11213,
+   ["storedCheckpointTime"]=0
+},
+--[377]--
+{
+   ["bestTime"]=6291,
+   ["storedCheckpointTime"]=0
+},
+--[378]--
+{
+   ["bestTime"]=14217,
+   ["storedCheckpointTime"]=13496
+},
+--[379]--
+{
+   ["bestTime"]=3163,
+   ["storedCheckpointTime"]=0
+},
+--[380]--
+{
+   ["bestTime"]=24697,
+   ["storedCheckpointTime"]=19740
+},
+--[381]--
+{
+   ["bestTime"]=29419,
+   ["storedCheckpointTime"]=0
+},
+--[382]--
+{
+   ["bestTime"]=19567,
+   ["storedCheckpointTime"]=0
+},
+--[383]--
+{
+   ["bestTime"]=22607,
+   ["storedCheckpointTime"]=17147
+},
+--[384]--
+{
+   ["bestTime"]=12326,
+   ["storedCheckpointTime"]=8837
+},
+--[385]--
+{
+   ["bestTime"]=16434,
+   ["storedCheckpointTime"]=0
+},
+--[386]--
+{
+   ["bestTime"]=15302,
+   ["storedCheckpointTime"]=9958
+},
+--[387]--
+{
+   ["bestTime"]=16053,
+   ["storedCheckpointTime"]=0
+},
+--[388]--
+{
+   ["bestTime"]=6085,
+   ["storedCheckpointTime"]=0
+},
+--[389]--
+{
+   ["bestTime"]=58783,
+   ["storedCheckpointTime"]=42996
+},
+--[390]--
+{
+   ["bestTime"]=11254,
+   ["storedCheckpointTime"]=0
+},
+--[391]--
+{
+   ["bestTime"]=21016,
+   ["storedCheckpointTime"]=0
+},
+--[392]--
+{
+   ["bestTime"]=26772,
+   ["storedCheckpointTime"]=19969
+},
+--[393]--
+{
+   ["bestTime"]=13232,
+   ["storedCheckpointTime"]=0
+},
+--[394]--
+{
+   ["bestTime"]=4728,
+   ["storedCheckpointTime"]=0
+},
+--[395]--
+{
+   ["bestTime"]=5658,
+   ["storedCheckpointTime"]=0
+},
+--[396]--
+{
+   ["bestTime"]=30589,
+   ["storedCheckpointTime"]=22498
+},
+--[397]--
+{
+   ["bestTime"]=25494,
+   ["storedCheckpointTime"]=0
+},
+--[398]--
+{
+   ["bestTime"]=630,
+   ["storedCheckpointTime"]=0
+},
+--[399]--
+{
+   ["bestTime"]=37336,
+   ["storedCheckpointTime"]=0
+},
+--[400]--
+{
+   ["bestTime"]=39899,
+   ["storedCheckpointTime"]=0
+},
+--[401]--
+{
+   ["bestTime"]=5837,
+   ["storedCheckpointTime"]=0
+},
+--[402]--
+{
+   ["bestTime"]=-1,
+   ["storedCheckpointTime"]=0
+},
+--[403]--
+{
+   ["bestTime"]=10719,
+   ["storedCheckpointTime"]=0
+},
+--[404]--
+{
+   ["bestTime"]=9420,
+   ["storedCheckpointTime"]=0
+},
+--[405]--
+{
+   ["bestTime"]=24459,
+   ["storedCheckpointTime"]=0
+},
+--[406]--
+{
+   ["bestTime"]=34904,
+   ["storedCheckpointTime"]=27638
+},
+--[407]--
+{
+   ["bestTime"]=20568,
+   ["storedCheckpointTime"]=12401
+},
+--[408]--
+{
+   ["bestTime"]=19515,
+   ["storedCheckpointTime"]=11288
+},
+--[409]--
+{
+   ["bestTime"]=26256,
+   ["storedCheckpointTime"]=13408
+},
+--[410]--
+{
+   ["bestTime"]=25072,
+   ["storedCheckpointTime"]=14759
+},
+--[411]--
+{
+   ["bestTime"]=15752,
+   ["storedCheckpointTime"]=10553
+},
+--[412]--
+{
+   ["bestTime"]=10676,
+   ["storedCheckpointTime"]=2855
+},
+--[413]--
+{
+   ["bestTime"]=32254,
+   ["storedCheckpointTime"]=0
+},
+--[414]--
+{
+   ["bestTime"]=23939,
+   ["storedCheckpointTime"]=18661
+},
+--[415]--
+{
+   ["bestTime"]=69958,
+   ["storedCheckpointTime"]=51848
+},
+--[416]--
+{
+   ["bestTime"]=18142,
+   ["storedCheckpointTime"]=0
+},
+--[417]--
+{
+   ["bestTime"]=17907,
+   ["storedCheckpointTime"]=0
+},
+--[418]--
+{
+   ["bestTime"]=19802,
+   ["storedCheckpointTime"]=0
+},
+--[419]--
+{
+   ["bestTime"]=16245,
+   ["storedCheckpointTime"]=0
+},
+--[420]--
+{
+   ["bestTime"]=28460,
+   ["storedCheckpointTime"]=24554
+},
+--[421]--
+{
+   ["bestTime"]=28396,
+   ["storedCheckpointTime"]=0
+},
+--[422]--
+{
+   ["bestTime"]=3914,
+   ["storedCheckpointTime"]=2585
+},
+--[423]--
+{
+   ["bestTime"]=23751,
+   ["storedCheckpointTime"]=0
+},
+--[424]--
+{
+   ["bestTime"]=8195,
+   ["storedCheckpointTime"]=0
+},
+--[425]--
+{
+   ["bestTime"]=1200,
+   ["storedCheckpointTime"]=0
+},
+--[426]--
+{
+   ["bestTime"]=31291,
+   ["storedCheckpointTime"]=0
+},
+--[427]--
+{
+   ["bestTime"]=24753,
+   ["storedCheckpointTime"]=0
+},
+--[428]--
+{
+   ["bestTime"]=38719,
+   ["storedCheckpointTime"]=0
+},
+--[429]--
+{
+   ["bestTime"]=107793,
+   ["storedCheckpointTime"]=74059
+},
+--[430]--
+{
+   ["bestTime"]=6560,
+   ["storedCheckpointTime"]=0
+},
+--[431]--
+{
+   ["bestTime"]=15062,
+   ["storedCheckpointTime"]=10976
+},
+--[432]--
+{
+   ["bestTime"]=9730,
+   ["storedCheckpointTime"]=0
+},
+--[433]--
+{
+   ["bestTime"]=36961,
+   ["storedCheckpointTime"]=25483
+},
+--[434]--
+{
+   ["bestTime"]=5034,
+   ["storedCheckpointTime"]=0
+},
+--[435]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[436]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[437]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=2,
+   ["0x16"]=3,
+   ["0x108"]=0
+},
+--[438]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=2,
+   ["0x16"]=3,
+   ["0x108"]=0
+},
+--[439]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[440]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[441]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[442]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=0,
+   ["0x108"]=0
+},
+--[443]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=4,
+   ["0x16"]=3,
+   ["0x108"]=0
+},
+--[444]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[445]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[446]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={840}
+},
+--[447]--
+{
+   ["maxID"]=0,
+   ["alive"]={841}
+},
+--[448]--
+{
+   ["maxID"]=0,
+   ["alive"]={842}
+},
+--[449]--
+{
+   ["maxID"]=0,
+   ["alive"]={843}
+},
+--[450]--
+{
+   ["maxID"]=0,
+   ["alive"]={844}
+},
+--[451]--
+{
+   ["maxID"]=0,
+   ["alive"]={845}
+},
+--[452]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={846}
+},
+--[453]--
+{
+   ["maxID"]=0,
+   ["alive"]={847}
+},
+--[454]--
+{
+   ["maxID"]=0,
+   ["alive"]={848}
+},
+--[455]--
+{
+   ["maxID"]=0,
+   ["alive"]={849}
+},
+--[456]--
+{
+   ["maxID"]=0,
+   ["alive"]={850}
+},
+--[457]--
+{
+   ["maxID"]=0,
+   ["alive"]={851}
+},
+--[458]--
+{
+   ["maxID"]=0,
+   ["alive"]={852}
+},
+--[459]--
+{
+   ["maxID"]=0,
+   ["alive"]={853}
+},
+--[460]--
+{
+   ["maxID"]=0,
+   ["alive"]={854}
+},
+--[461]--
+{
+   ["maxID"]=0,
+   ["alive"]={855}
+},
+--[462]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={856}
+},
+--[463]--
+{
+   ["maxID"]=0,
+   ["alive"]={857}
+},
+--[464]--
+{
+   ["maxID"]=0,
+   ["alive"]={858}
+},
+--[465]--
+{
+   ["maxID"]=0,
+   ["alive"]={859}
+},
+--[466]--
+{
+   ["maxID"]=0,
+   ["alive"]={860}
+},
+--[467]--
+{
+   ["maxID"]=0,
+   ["alive"]={861}
+},
+--[468]--
+{
+   ["maxID"]=0,
+   ["alive"]={862}
+},
+--[469]--
+{
+   ["maxID"]=0,
+   ["alive"]={863}
+},
+--[470]--
+{
+   ["maxID"]=0,
+   ["alive"]={864}
+},
+--[471]--
+{
+   ["maxID"]=0,
+   ["alive"]={865}
+},
+--[472]--
+{
+   ["maxID"]=0,
+   ["alive"]={866}
+},
+--[473]--
+{
+   ["maxID"]=0,
+   ["alive"]={867}
+},
+--[474]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={868}
+},
+--[475]--
+{
+   1,
+   ["maxID"]=1,
+   ["alive"]={869}
+},
+--[476]--
+{
+   ["maxID"]=0,
+   ["alive"]={870}
+},
+--[477]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={871}
+},
+--[478]--
+{
+   ["maxID"]=0,
+   ["alive"]={872}
+},
+--[479]--
+{
+   ["maxID"]=0,
+   ["alive"]={873}
+},
+--[480]--
+{
+   ["maxID"]=0,
+   ["alive"]={874}
+},
+--[481]--
+{
+   ["maxID"]=0,
+   ["alive"]={875}
+},
+--[482]--
+{
+   ["maxID"]=0,
+   ["alive"]={876}
+},
+--[483]--
+{
+   ["maxID"]=0,
+   ["alive"]={877}
+},
+--[484]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={878}
+},
+--[485]--
+{
+   ["maxID"]=0,
+   ["alive"]={879}
+},
+--[486]--
+{
+   ["maxID"]=0,
+   ["alive"]={880}
+},
+--[487]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={881}
+},
+--[488]--
+{
+   ["maxID"]=0,
+   ["alive"]={882}
+},
+--[489]--
+{
+   ["maxID"]=0,
+   ["alive"]={883}
+},
+--[490]--
+{
+   1,
+   1,
+   1,
+   1,
+   1,
+   ["maxID"]=5,
+   ["alive"]={884}
+},
+--[491]--
+{
+   1,
+   1,
+   ["maxID"]=2,
+   ["alive"]={885}
+},
+--[492]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={886}
+},
+--[493]--
+{
+   ["maxID"]=0,
+   ["alive"]={887}
+},
+--[494]--
+{
+   ["maxID"]=0,
+   ["alive"]={888}
+},
+--[495]--
+{
+   ["maxID"]=0,
+   ["alive"]={889}
+},
+--[496]--
+{
+   ["maxID"]=0,
+   ["alive"]={890}
+},
+--[497]--
+{
+   ["maxID"]=0,
+   ["alive"]={891}
+},
+--[498]--
+{
+   ["maxID"]=0,
+   ["alive"]={892}
+},
+--[499]--
+{
+   ["maxID"]=0,
+   ["alive"]={893}
+},
+--[500]--
+{
+   [0]=0,
+   ["maxID"]=0,
+   ["alive"]={894}
+},
+--[501]--
+{
+   ["maxID"]=0,
+   ["alive"]={895}
+},
+--[502]--
+{
+   ["maxID"]=0,
+   ["alive"]={896}
+},
+--[503]--
+{
+   ["maxID"]=0,
+   ["alive"]={897}
+},
+--[504]--
+{
+   ["maxID"]=0,
+   ["alive"]={898}
+},
+--[505]--
+{
+   ["maxID"]=0,
+   ["alive"]={899}
+},
+--[506]--
+{
+   ["maxID"]=0,
+   ["alive"]={900}
+},
+--[507]--
+{
+   ["maxID"]=0,
+   ["alive"]={901}
+},
+--[508]--
+{
+   ["maxID"]=0,
+   ["alive"]={902}
+},
+--[509]--
+{
+   ["maxID"]=0,
+   ["alive"]={903}
+},
+--[510]--
+{
+   ["maxID"]=0,
+   ["alive"]={904}
+},
+--[511]--
+{
+   ["maxID"]=0,
+   ["alive"]={905}
+},
+--[512]--
+{
+   ["maxID"]=0,
+   ["alive"]={906}
+},
+--[513]--
+{
+   ["maxID"]=0,
+   ["alive"]={907}
+},
+--[514]--
+{
+   ["maxID"]=0,
+   ["alive"]={908}
+},
+--[515]--
+{
+   ["maxID"]=0,
+   ["alive"]={909}
+},
+--[516]--
+{
+   ["maxID"]=0,
+   ["alive"]={910}
+},
+--[517]--
+{
+   ["maxID"]=0,
+   ["alive"]={911}
+},
+--[518]--
+{
+   ["maxID"]=0,
+   ["alive"]={912}
+},
+--[519]--
+{
+   ["maxID"]=0,
+   ["alive"]={913}
+},
+--[520]--
+{
+   ["maxID"]=0,
+   ["alive"]={914}
+},
+--[521]--
+{
+   ["maxID"]=0,
+   ["alive"]={915}
+},
+--[522]--
+{
+   ["maxID"]=0,
+   ["alive"]={916}
+},
+--[523]--
+{
+   ["maxID"]=0,
+   ["alive"]={917}
+},
+--[524]--
+{
+   ["maxID"]=0,
+   ["alive"]={918}
+},
+--[525]--
+{
+   ["maxID"]=0,
+   ["alive"]={919}
+},
+--[526]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={920}
+},
+--[527]--
+{
+   ["maxID"]=0,
+   ["alive"]={921}
+},
+--[528]--
+{
+   ["maxID"]=0,
+   ["alive"]={922}
+},
+--[529]--
+{
+   ["maxID"]=0,
+   ["alive"]={923}
+},
+--[530]--
+{
+   ["maxID"]=0,
+   ["alive"]={924}
+},
+--[531]--
+{
+   ["maxID"]=0,
+   ["alive"]={925}
+},
+--[532]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={926}
+},
+--[533]--
+{
+   ["maxID"]=0,
+   ["alive"]={927}
+},
+--[534]--
+{
+   ["maxID"]=0,
+   ["alive"]={928}
+},
+--[535]--
+{
+   ["maxID"]=0,
+   ["alive"]={929}
+},
+--[536]--
+{
+   ["maxID"]=0,
+   ["alive"]={930}
+},
+--[537]--
+{
+   ["maxID"]=0,
+   ["alive"]={931}
+},
+--[538]--
+{
+   ["maxID"]=0,
+   ["alive"]={932}
+},
+--[539]--
+{
+   ["maxID"]=0,
+   ["alive"]={933}
+},
+--[540]--
+{
+   ["maxID"]=0,
+   ["alive"]={934}
+},
+--[541]--
+{
+   ["maxID"]=0,
+   ["alive"]={935}
+},
+--[542]--
+{
+   ["maxID"]=0,
+   ["alive"]={936}
+},
+--[543]--
+{
+   ["maxID"]=0,
+   ["alive"]={937}
+},
+--[544]--
+{
+   ["maxID"]=0,
+   ["alive"]={938}
+},
+--[545]--
+{
+   ["maxID"]=0,
+   ["alive"]={939}
+},
+--[546]--
+{
+   ["maxID"]=0,
+   ["alive"]={940}
+},
+--[547]--
+{
+   ["maxID"]=0,
+   ["alive"]={941}
+},
+--[548]--
+{
+   ["maxID"]=0,
+   ["alive"]={942}
+},
+--[549]--
+{
+   ["maxID"]=0,
+   ["alive"]={943}
+},
+--[550]--
+{
+   ["maxID"]=0,
+   ["alive"]={944}
+},
+--[551]--
+{
+   ["maxID"]=0,
+   ["alive"]={945}
+},
+--[552]--
+{
+   ["maxID"]=0,
+   ["alive"]={946}
+},
+--[553]--
+{
+   [0]=0,
+   ["maxID"]=0,
+   ["alive"]={947}
+},
+--[554]--
+{
+   ["maxID"]=0,
+   ["alive"]={948}
+},
+--[555]--
+{
+   ["maxID"]=0,
+   ["alive"]={949}
+},
+--[556]--
+{
+   ["maxID"]=0,
+   ["alive"]={950}
+},
+--[557]--
+{
+   ["maxID"]=0,
+   ["alive"]={951}
+},
+--[558]--
+{
+   1,
+   1,
+   1,
+   1,
+   1,
+   ["maxID"]=5,
+   ["alive"]={952}
+},
+--[559]--
+{
+   ["maxID"]=0,
+   ["alive"]={953}
+},
+--[560]--
+{
+   ["maxID"]=0,
+   ["alive"]={954}
+},
+--[561]--
+{
+   ["maxID"]=0,
+   ["alive"]={955}
+},
+--[562]--
+{
+   ["maxID"]=0,
+   ["alive"]={956}
+},
+--[563]--
+{
+   ["maxID"]=0,
+   ["alive"]={957}
+},
+--[564]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={958}
+},
+--[565]--
+{
+   ["maxID"]=0,
+   ["alive"]={959}
+},
+--[566]--
+{
+   ["maxID"]=0,
+   ["alive"]={960}
+},
+--[567]--
+{
+   ["maxID"]=0,
+   ["alive"]={961}
+},
+--[568]--
+{
+   ["maxID"]=0,
+   ["alive"]={962}
+},
+--[569]--
+{
+   ["maxID"]=0,
+   ["alive"]={963}
+},
+--[570]--
+{
+   ["maxID"]=0,
+   ["alive"]={964}
+},
+--[571]--
+{
+   ["maxID"]=0,
+   ["alive"]={965}
+},
+--[572]--
+{
+   ["maxID"]=0,
+   ["alive"]={966}
+},
+--[573]--
+{
+   ["maxID"]=0,
+   ["alive"]={967}
+},
+--[574]--
+{
+   ["maxID"]=0,
+   ["alive"]={968}
+},
+--[575]--
+{
+   ["maxID"]=0,
+   ["alive"]={969}
+},
+--[576]--
+{
+   ["maxID"]=0,
+   ["alive"]={970}
+},
+--[577]--
+{
+   1,
+   1,
+   1,
+   1,
+   1,
+   ["maxID"]=5,
+   ["alive"]={971}
+},
+--[578]--
+{
+   ["maxID"]=0,
+   ["alive"]={972}
+},
+--[579]--
+{
+   ["maxID"]=0,
+   ["alive"]={973}
+},
+--[580]--
+{
+   ["maxID"]=0,
+   ["alive"]={974}
+},
+--[581]--
+{
+   ["maxID"]=0,
+   ["alive"]={975}
+},
+--[582]--
+{
+   ["maxID"]=0,
+   ["alive"]={976}
+},
+--[583]--
+{
+   1,
+   1,
+   1,
+   1,
+   1,
+   ["maxID"]=5,
+   ["alive"]={977}
+},
+--[584]--
+{
+   ["maxID"]=0,
+   ["alive"]={978}
+},
+--[585]--
+{
+   ["maxID"]=0,
+   ["alive"]={979}
+},
+--[586]--
+{
+   ["maxID"]=0,
+   ["alive"]={980}
+},
+--[587]--
+{
+   ["maxID"]=0,
+   ["alive"]={981}
+},
+--[588]--
+{
+   ["maxID"]=0,
+   ["alive"]={982}
+},
+--[589]--
+{
+   ["maxID"]=0,
+   ["alive"]={983}
+},
+--[590]--
+{
+   ["maxID"]=0,
+   ["alive"]={984}
+},
+--[591]--
+{
+   ["maxID"]=0,
+   ["alive"]={985}
+},
+--[592]--
+{
+   ["maxID"]=0,
+   ["alive"]={986}
+},
+--[593]--
+{
+   ["maxID"]=0,
+   ["alive"]={987}
+},
+--[594]--
+{
+   ["maxID"]=0,
+   ["alive"]={988}
+},
+--[595]--
+{
+   ["maxID"]=0,
+   ["alive"]={989}
+},
+--[596]--
+{
+   ["maxID"]=0,
+   ["alive"]={990}
+},
+--[597]--
+{
+   ["maxID"]=0,
+   ["alive"]={991}
+},
+--[598]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={992}
+},
+--[599]--
+{
+   ["maxID"]=0,
+   ["alive"]={993}
+},
+--[600]--
+{
+   ["maxID"]=0,
+   ["alive"]={994}
+},
+--[601]--
+{
+   ["maxID"]=0,
+   ["alive"]={995}
+},
+--[602]--
+{
+   ["maxID"]=0,
+   ["alive"]={996}
+},
+--[603]--
+{
+   ["maxID"]=0,
+   ["alive"]={997}
+},
+--[604]--
+{
+   ["maxID"]=0,
+   ["alive"]={998}
+},
+--[605]--
+{
+   ["maxID"]=0,
+   ["alive"]={999}
+},
+--[606]--
+{
+   ["maxID"]=0,
+   ["alive"]={1000}
+},
+--[607]--
+{
+   ["maxID"]=0,
+   ["alive"]={1001}
+},
+--[608]--
+{
+   ["maxID"]=0,
+   ["alive"]={1002}
+},
+--[609]--
+{
+   ["maxID"]=0,
+   ["alive"]={1003}
+},
+--[610]--
+{
+   ["maxID"]=0,
+   ["alive"]={1004}
+},
+--[611]--
+{
+   ["maxID"]=0,
+   ["alive"]={1005}
+},
+--[612]--
+{
+   ["maxID"]=0,
+   ["alive"]={1006}
+},
+--[613]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={1007}
+},
+--[614]--
+{
+   ["maxID"]=0,
+   ["alive"]={1008}
+},
+--[615]--
+{
+   ["maxID"]=0,
+   ["alive"]={1009}
+},
+--[616]--
+{
+   ["maxID"]=0,
+   ["alive"]={1010}
+},
+--[617]--
+{
+   ["maxID"]=0,
+   ["alive"]={1011}
+},
+--[618]--
+{
+   ["maxID"]=0,
+   ["alive"]={1012}
+},
+--[619]--
+{
+   ["maxID"]=0,
+   ["alive"]={1013}
+},
+--[620]--
+{
+   ["maxID"]=0,
+   ["alive"]={1014}
+},
+--[621]--
+{
+   ["maxID"]=0,
+   ["alive"]={1015}
+},
+--[622]--
+{
+   ["maxID"]=0,
+   ["alive"]={1016}
+},
+--[623]--
+{
+   ["maxID"]=0,
+   ["alive"]={1017}
+},
+--[624]--
+{
+   ["maxID"]=0,
+   ["alive"]={1018}
+},
+--[625]--
+{
+   ["maxID"]=0,
+   ["alive"]={1019}
+},
+--[626]--
+{
+   ["maxID"]=0,
+   ["alive"]={1020}
+},
+--[627]--
+{
+   ["maxID"]=0,
+   ["alive"]={1021}
+},
+--[628]--
+{
+   ["maxID"]=0,
+   ["alive"]={1022}
+},
+--[629]--
+{
+   ["maxID"]=0,
+   ["alive"]={1023}
+},
+--[630]--
+{
+   1,
+   1,
+   1,
+   1,
+   1,
+   ["maxID"]=5,
+   ["alive"]={1024}
+},
+--[631]--
+{
+   ["maxID"]=0,
+   ["alive"]={1025}
+},
+--[632]--
+{
+   ["maxID"]=0,
+   ["alive"]={1026}
+},
+--[633]--
+{
+   1,
+   ["maxID"]=1,
+   ["alive"]={1027}
+},
+--[634]--
+{
+   ["maxID"]=0,
+   ["alive"]={1028}
+},
+--[635]--
+{
+   ["maxID"]=0,
+   ["alive"]={1029}
+},
+--[636]--
+{
+   ["maxID"]=0,
+   ["alive"]={1030}
+},
+--[637]--
+{
+   ["maxID"]=0,
+   ["alive"]={1031}
+},
+--[638]--
+{
+   ["maxID"]=0,
+   ["alive"]={1032}
+},
+--[639]--
+{
+   ["maxID"]=0,
+   ["alive"]={1033}
+},
+--[640]--
+{
+   ["maxID"]=0,
+   ["alive"]={1034}
+},
+--[641]--
+{
+   ["maxID"]=0,
+   ["alive"]={1035}
+},
+--[642]--
+{
+   ["maxID"]=0,
+   ["alive"]={1036}
+},
+--[643]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={1037}
+},
+--[644]--
+{
+   [5]={1038}
+},
+--[645]--
+{
+   [14]={1039},
+   [13]={1040}
+},
+--[646]--
+{
+   [4]={1041}
+},
+--[647]--
+{
+   [3]={1042}
+},
+--[648]--
+{
+   [18]={1043},
+   [19]={1044}
+},
+--[649]--
+{
+   [6]={1045}
+},
+--[650]--
+{
+   [9]={1046}
+},
+--[651]--
+{
+   [12]={1047},
+   [13]={1048}
+},
+--[652]--
+{
+   [2]={1049}
+},
+--[653]--
+{
+   [5]={1050}
+},
+--[654]--
+{
+   {1051}
+},
+--[655]--
+{
+   [8]={1052}
+},
+--[656]--
+{
+   [4]={1053}
+},
+--[657]--
+{
+   [4]={1054}
+},
+--[658]--
+{
+   [0]={1055}
+},
+--[659]--
+{
+   [0]={1056}
+},
+--[660]--
+{
+   [4]={1057}
+},
+--[661]--
+{
+   [7]={1058}
+},
+--[662]--
+{
+   [5]={1059}
+},
+--[663]--
+{
+   [0]={1060}
+},
+--[664]--
+{
+   [6]={1061}
+},
+--[665]--
+{
+   [16]={1062}
+},
+--[666]--
+{
+   [5]={1063}
+},
+--[667]--
+{
+   [2]={1064}
+},
+--[668]--
+{
+   [6]={1065}
+},
+--[669]--
+{
+   [2]={1066}
+},
+--[670]--
+{
+   [2]={1067}
+},
+--[671]--
+{
+   [19]={1068}
+},
+--[672]--
+{
+   [9]={1069}
+},
+--[673]--
+{
+   [0]={1070}
+},
+--[674]--
+{
+   {1071}
+},
+--[675]--
+{
+   [3]={1072}
+},
+--[676]--
+{
+   [9]={1073}
+},
+--[677]--
+{
+   [8]={1074}
+},
+--[678]--
+{
+   [0]={1075}
+},
+--[679]--
+{
+   [0]={1076}
+},
+--[680]--
+{
+   [12]={1077}
+},
+--[681]--
+{
+   [0]={1078}
+},
+--[682]--
+{
+   [10]={1079},
+   [15]={1080}
+},
+--[683]--
+{
+   [9]={1081}
+},
+--[684]--
+{
+   [12]={1082}
+},
+--[685]--
+{
+   {1083}
+},
+--[686]--
+{
+   [0]={1084}
+},
+--[687]--
+{
+   [6]={1085}
+},
+--[688]--
+{
+   [14]={1086}
+},
+--[689]--
+{
+   [5]={1087}
+},
+--[690]--
+{
+   [5]={1088}
+},
+--[691]--
+{
+   [12]={1089}
+},
+--[692]--
+{
+   [2]={1090}
+},
+--[693]--
+{
+   [0]={1091}
+},
+--[694]--
+{
+   [0]={1092}
+},
+--[695]--
+{
+   [0]={1093}
+},
+--[696]--
+{
+   [0]={1094}
+},
+--[697]--
+{
+   [3]={1095}
+},
+--[698]--
+{
+   [2]={1096}
+},
+--[699]--
+{
+   [3]={1097}
+},
+--[700]--
+{
+   [10]={1098}
+},
+--[701]--
+{
+   [0]={1099}
+},
+--[702]--
+{
+   {1100}
+},
+--[703]--
+{
+   [5]={1101}
+},
+--[704]--
+{
+   [0]={1102}
+},
+--[705]--
+{
+   [0]={1103}
+},
+--[706]--
+{
+   [5]={1104}
+},
+--[707]--
+{
+   {1105}
+},
+--[708]--
+{
+   [12]={1106}
+},
+--[709]--
+{
+   [4]={1107},
+   [10]={1108},
+   [9]={1109}
+},
+--[710]--
+{
+   [10]={1110}
+},
+--[711]--
+{
+   [4]={1111}
+},
+--[712]--
+{
+   [0]={1112}
+},
+--[713]--
+{
+   [5]={1113}
+},
+--[714]--
+{
+   [0]={1114}
+},
+--[715]--
+{
+   [20]={1115}
+},
+--[716]--
+{
+   [10]={1116},
+   [16]={1117}
+},
+--[717]--
+{
+   [0]={1118}
+},
+--[718]--
+{
+   [4]={1119}
+},
+--[719]--
+{
+   [8]={1120}
+},
+--[720]--
+{
+   [16]={1121}
+},
+--[721]--
+{
+   [2]={1122}
+},
+--[722]--
+{
+   [5]={1123}
+},
+--[723]--
+{
+   [6]={1124}
+},
+--[724]--
+{
+   [2]={1125}
+},
+--[725]--
+{
+   {1126}
+},
+--[726]--
+{
+   [7]={1127}
+},
+--[727]--
+{
+   [5]={1128}
+},
+--[728]--
+{
+   [4]={1129}
+},
+--[729]--
+{
+   {1130}
+},
+--[730]--
+{
+   [0]={1131}
+},
+--[731]--
+{
+   [6]={1132}
+},
+--[732]--
+{
+   [20]={1133}
+},
+--[733]--
+{
+   [6]={1134}
+},
+--[734]--
+{
+   [9]={1135}
+},
+--[735]--
+{
+   {1136}
+},
+--[736]--
+{
+   [4]={1137}
+},
+--[737]--
+{
+   [12]={1138}
+},
+--[738]--
+{
+   [4]={1139}
+},
+--[739]--
+{
+   [0]={1140}
+},
+--[740]--
+{
+   [20]={1141}
+},
+--[741]--
+{
+   [2]={1142}
+},
+--[742]--
+{
+   [16]={1143}
+},
+--[743]--
+{
+   [8]={1144}
+},
+--[744]--
+{
+   [2]={1145}
+},
+--[745]--
+{
+   [3]={1146}
+},
+--[746]--
+{
+   [2]={1147}
+},
+--[747]--
+{
+   [3]={1148}
+},
+--[748]--
+{
+   [0]={1149}
+},
+--[749]--
+{
+   {1150}
+},
+--[750]--
+{
+   [2]={1151}
+},
+--[751]--
+{
+   [3]={1152}
+},
+--[752]--
+{
+   [3]={1153}
+},
+--[753]--
+{
+   [0]={1154}
+},
+--[754]--
+{
+   [3]={1155}
+},
+--[755]--
+{
+   [0]={1156}
+},
+--[756]--
+{
+   [0]={1157}
+},
+--[757]--
+{
+   [14]={1158},
+   [12]={1159}
+},
+--[758]--
+{
+   [7]={1160}
+},
+--[759]--
+{
+   [0]={1161}
+},
+--[760]--
+{
+   [2]={1162}
+},
+--[761]--
+{
+   [5]={1163}
+},
+--[762]--
+{
+   [10]={1164}
+},
+--[763]--
+{
+   {1165}
+},
+--[764]--
+{
+   [11]={1166},
+   [9]={1167}
+},
+--[765]--
+{
+   [7]={1168}
+},
+--[766]--
+{
+   [6]={1169}
+},
+--[767]--
+{
+   [4]={1170}
+},
+--[768]--
+{
+   [0]={1171}
+},
+--[769]--
+{
+   [8]={1172}
+},
+--[770]--
+{
+   {1173}
+},
+--[771]--
+{
+   [3]={1174}
+},
+--[772]--
+{
+   [12]={1175}
+},
+--[773]--
+{
+   [0]={1176},
+   [4]={1177}
+},
+--[774]--
+{
+   {1178}
+},
+--[775]--
+{
+   [0]={1179}
+},
+--[776]--
+{
+   [4]={1180}
+},
+--[777]--
+{
+   [0]={1181}
+},
+--[778]--
+{
+   [5]={1182}
+},
+--[779]--
+{
+   [5]={1183}
+},
+--[780]--
+{
+   [6]={1184}
+},
+--[781]--
+{
+   [3]={1185},
+   [4]={1186}
+},
+--[782]--
+{
+   [7]={1187}
+},
+--[783]--
+{
+   {1188}
+},
+--[784]--
+{
+   [3]={1189}
+},
+--[785]--
+{
+   [0]={1190}
+},
+--[786]--
+{
+   [0]={1191}
+},
+--[787]--
+{
+   [3]={1192}
+},
+--[788]--
+{
+   [2]={1193}
+},
+--[789]--
+{
+   [3]={1194}
+},
+--[790]--
+{
+   [6]={1195}
+},
+--[791]--
+{
+   [5]={1196}
+},
+--[792]--
+{
+   [10]={1197}
+},
+--[793]--
+{
+   [8]={1198}
+},
+--[794]--
+{
+   [0]={1199}
+},
+--[795]--
+{
+   [6]={1200}
+},
+--[796]--
+{
+   [5]={1201}
+},
+--[797]--
+{
+   [0]={1202}
+},
+--[798]--
+{
+   [0]={1203}
+},
+--[799]--
+{
+   [4]={1204}
+},
+--[800]--
+{
+   [6]={1205}
+},
+--[801]--
+{
+   [0]={1206}
+},
+--[802]--
+{
+   [11]={1207}
+},
+--[803]--
+{
+   [3]={1208}
+},
+--[804]--
+{
+   [10]={1209}
+},
+--[805]--
+{
+   {1210}
+},
+--[806]--
+{
+   [5]={1211}
+},
+--[807]--
+{
+   [3]={1212}
+},
+--[808]--
+{
+   [9]={1213}
+},
+--[809]--
+{
+   [14]={1214}
+},
+--[810]--
+{
+   [3]={1215}
+},
+--[811]--
+{
+   [5]={1216}
+},
+--[812]--
+{
+   {1217}
+},
+--[813]--
+{
+   [0]={1218}
+},
+--[814]--
+{
+   [3]={1219}
+},
+--[815]--
+{
+   [5]={1220}
+},
+--[816]--
+{
+   {1221}
+},
+--[817]--
+{
+   {1222}
+},
+--[818]--
+{
+   [7]={1223}
+},
+--[819]--
+{
+   [0]={1224}
+},
+--[820]--
+{
+   [2]={1225}
+},
+--[821]--
+{
+   [10]={1226}
+},
+--[822]--
+{
+   [7]={1227}
+},
+--[823]--
+{
+   {1228}
+},
+--[824]--
+{
+   [0]={1229}
+},
+--[825]--
+{
+   [5]={1230}
+},
+--[826]--
+{
+   [4]={1231}
+},
+--[827]--
+{
+   [0]={1232}
+},
+--[828]--
+{
+   [0]={1233}
+},
+--[829]--
+{
+   {1234}
+},
+--[830]--
+{
+   {1235}
+},
+--[831]--
+{
+   [17]={1236}
+},
+--[832]--
+{
+   [6]={1237}
+},
+--[833]--
+{
+   [8]={1238}
+},
+--[834]--
+{
+   [10]={1239}
+},
+--[835]--
+{
+   [6]={1240}
+},
+--[836]--
+{
+   [2]={1241}
+},
+--[837]--
+{
+   [2]={1242}
+},
+--[838]--
+{
+   [7]={1243}
+},
+--[839]--
+{
+   [2]={1244}
+},
+--[840]--
+{
+   true,
+   true,
+   true
+},
+--[841]--
+{
+
+},
+--[842]--
+{
+
+},
+--[843]--
+{
+
+},
+--[844]--
+{
+
+},
+--[845]--
+{
+
+},
+--[846]--
+{
+   true,
+   true,
+   true
+},
+--[847]--
+{
+
+},
+--[848]--
+{
+
+},
+--[849]--
+{
+
+},
+--[850]--
+{
+
+},
+--[851]--
+{
+
+},
+--[852]--
+{
+
+},
+--[853]--
+{
+
+},
+--[854]--
+{
+
+},
+--[855]--
+{
+
+},
+--[856]--
+{
+   true,
+   true,
+   true
+},
+--[857]--
+{
+
+},
+--[858]--
+{
+
+},
+--[859]--
+{
+
+},
+--[860]--
+{
+
+},
+--[861]--
+{
+
+},
+--[862]--
+{
+
+},
+--[863]--
+{
+
+},
+--[864]--
+{
+
+},
+--[865]--
+{
+
+},
+--[866]--
+{
+
+},
+--[867]--
+{
+
+},
+--[868]--
+{
+   true,
+   true,
+   true
+},
+--[869]--
+{
+   true
+},
+--[870]--
+{
+
+},
+--[871]--
+{
+   true,
+   true,
+   true
+},
+--[872]--
+{
+
+},
+--[873]--
+{
+
+},
+--[874]--
+{
+
+},
+--[875]--
+{
+
+},
+--[876]--
+{
+
+},
+--[877]--
+{
+
+},
+--[878]--
+{
+   true,
+   true,
+   true
+},
+--[879]--
+{
+
+},
+--[880]--
+{
+
+},
+--[881]--
+{
+   true,
+   true,
+   true
+},
+--[882]--
+{
+
+},
+--[883]--
+{
+
+},
+--[884]--
+{
+   true,
+   true,
+   true,
+   true,
+   true
+},
+--[885]--
+{
+   true,
+   true
+},
+--[886]--
+{
+   true,
+   true,
+   true
+},
+--[887]--
+{
+
+},
+--[888]--
+{
+
+},
+--[889]--
+{
+
+},
+--[890]--
+{
+
+},
+--[891]--
+{
+
+},
+--[892]--
+{
+
+},
+--[893]--
+{
+
+},
+--[894]--
+{
+   [0]=true
+},
+--[895]--
+{
+
+},
+--[896]--
+{
+
+},
+--[897]--
+{
+
+},
+--[898]--
+{
+
+},
+--[899]--
+{
+
+},
+--[900]--
+{
+
+},
+--[901]--
+{
+
+},
+--[902]--
+{
+
+},
+--[903]--
+{
+
+},
+--[904]--
+{
+
+},
+--[905]--
+{
+
+},
+--[906]--
+{
+
+},
+--[907]--
+{
+
+},
+--[908]--
+{
+
+},
+--[909]--
+{
+
+},
+--[910]--
+{
+
+},
+--[911]--
+{
+
+},
+--[912]--
+{
+
+},
+--[913]--
+{
+
+},
+--[914]--
+{
+
+},
+--[915]--
+{
+
+},
+--[916]--
+{
+
+},
+--[917]--
+{
+
+},
+--[918]--
+{
+
+},
+--[919]--
+{
+
+},
+--[920]--
+{
+   true,
+   true,
+   true
+},
+--[921]--
+{
+
+},
+--[922]--
+{
+
+},
+--[923]--
+{
+
+},
+--[924]--
+{
+
+},
+--[925]--
+{
+
+},
+--[926]--
+{
+   true,
+   true,
+   true
+},
+--[927]--
+{
+
+},
+--[928]--
+{
+
+},
+--[929]--
+{
+
+},
+--[930]--
+{
+
+},
+--[931]--
+{
+
+},
+--[932]--
+{
+
+},
+--[933]--
+{
+
+},
+--[934]--
+{
+
+},
+--[935]--
+{
+
+},
+--[936]--
+{
+
+},
+--[937]--
+{
+
+},
+--[938]--
+{
+
+},
+--[939]--
+{
+
+},
+--[940]--
+{
+
+},
+--[941]--
+{
+
+},
+--[942]--
+{
+
+},
+--[943]--
+{
+
+},
+--[944]--
+{
+
+},
+--[945]--
+{
+
+},
+--[946]--
+{
+
+},
+--[947]--
+{
+   [0]=true
+},
+--[948]--
+{
+
+},
+--[949]--
+{
+
+},
+--[950]--
+{
+
+},
+--[951]--
+{
+
+},
+--[952]--
+{
+   true,
+   true,
+   true,
+   true,
+   true
+},
+--[953]--
+{
+
+},
+--[954]--
+{
+
+},
+--[955]--
+{
+
+},
+--[956]--
+{
+
+},
+--[957]--
+{
+
+},
+--[958]--
+{
+   true,
+   true,
+   true
+},
+--[959]--
+{
+
+},
+--[960]--
+{
+
+},
+--[961]--
+{
+
+},
+--[962]--
+{
+
+},
+--[963]--
+{
+
+},
+--[964]--
+{
+
+},
+--[965]--
+{
+
+},
+--[966]--
+{
+
+},
+--[967]--
+{
+
+},
+--[968]--
+{
+
+},
+--[969]--
+{
+
+},
+--[970]--
+{
+
+},
+--[971]--
+{
+   true,
+   true,
+   true,
+   true,
+   true
+},
+--[972]--
+{
+
+},
+--[973]--
+{
+
+},
+--[974]--
+{
+
+},
+--[975]--
+{
+
+},
+--[976]--
+{
+
+},
+--[977]--
+{
+   true,
+   true,
+   true,
+   true,
+   true
+},
+--[978]--
+{
+
+},
+--[979]--
+{
+
+},
+--[980]--
+{
+
+},
+--[981]--
+{
+
+},
+--[982]--
+{
+
+},
+--[983]--
+{
+
+},
+--[984]--
+{
+
+},
+--[985]--
+{
+
+},
+--[986]--
+{
+
+},
+--[987]--
+{
+
+},
+--[988]--
+{
+
+},
+--[989]--
+{
+
+},
+--[990]--
+{
+
+},
+--[991]--
+{
+
+},
+--[992]--
+{
+   true,
+   true,
+   true
+},
+--[993]--
+{
+
+},
+--[994]--
+{
+
+},
+--[995]--
+{
+
+},
+--[996]--
+{
+
+},
+--[997]--
+{
+
+},
+--[998]--
+{
+
+},
+--[999]--
+{
+
+},
+--[1000]--
+{
+
+},
+--[1001]--
+{
+
+},
+--[1002]--
+{
+
+},
+--[1003]--
+{
+
+},
+--[1004]--
+{
+
+},
+--[1005]--
+{
+
+},
+--[1006]--
+{
+
+},
+--[1007]--
+{
+   true,
+   true,
+   true
+},
+--[1008]--
+{
+
+},
+--[1009]--
+{
+
+},
+--[1010]--
+{
+
+},
+--[1011]--
+{
+
+},
+--[1012]--
+{
+
+},
+--[1013]--
+{
+
+},
+--[1014]--
+{
+
+},
+--[1015]--
+{
+
+},
+--[1016]--
+{
+
+},
+--[1017]--
+{
+
+},
+--[1018]--
+{
+
+},
+--[1019]--
+{
+
+},
+--[1020]--
+{
+
+},
+--[1021]--
+{
+
+},
+--[1022]--
+{
+
+},
+--[1023]--
+{
+
+},
+--[1024]--
+{
+   true,
+   true,
+   true,
+   true,
+   true
+},
+--[1025]--
+{
+
+},
+--[1026]--
+{
+
+},
+--[1027]--
+{
+   true
+},
+--[1028]--
+{
+
+},
+--[1029]--
+{
+
+},
+--[1030]--
+{
+
+},
+--[1031]--
+{
+
+},
+--[1032]--
+{
+
+},
+--[1033]--
+{
+
+},
+--[1034]--
+{
+
+},
+--[1035]--
+{
+
+},
+--[1036]--
+{
+
+},
+--[1037]--
+{
+   true,
+   true,
+   true
+},
+--[1038]--
+{
+   [6]=true
+},
+--[1039]--
+{
+   [6]=true
+},
+--[1040]--
+{
+   [6]=true
+},
+--[1041]--
+{
+   [6]=true
+},
+--[1042]--
+{
+   [6]=true
+},
+--[1043]--
+{
+   [6]=true
+},
+--[1044]--
+{
+   [6]=true
+},
+--[1045]--
+{
+   [6]=true
+},
+--[1046]--
+{
+   [6]=true
+},
+--[1047]--
+{
+   [6]=true
+},
+--[1048]--
+{
+   [2]=true
+},
+--[1049]--
+{
+   [6]=true
+},
+--[1050]--
+{
+   [6]=true
+},
+--[1051]--
+{
+   [6]=true
+},
+--[1052]--
+{
+   [6]=true
+},
+--[1053]--
+{
+   [6]=true
+},
+--[1054]--
+{
+   [6]=true
+},
+--[1055]--
+{
+   [6]=true
+},
+--[1056]--
+{
+   [6]=true
+},
+--[1057]--
+{
+   [6]=true
+},
+--[1058]--
+{
+   [6]=true
+},
+--[1059]--
+{
+   [6]=true
+},
+--[1060]--
+{
+   [6]=true
+},
+--[1061]--
+{
+   [6]=true
+},
+--[1062]--
+{
+   [6]=true
+},
+--[1063]--
+{
+   [6]=true
+},
+--[1064]--
+{
+   [6]=true
+},
+--[1065]--
+{
+   [6]=true
+},
+--[1066]--
+{
+   [6]=true
+},
+--[1067]--
+{
+   [6]=true
+},
+--[1068]--
+{
+   [6]=true
+},
+--[1069]--
+{
+   [6]=true
+},
+--[1070]--
+{
+   [6]=true
+},
+--[1071]--
+{
+   [6]=true
+},
+--[1072]--
+{
+   [6]=true
+},
+--[1073]--
+{
+   [6]=true
+},
+--[1074]--
+{
+   [6]=true
+},
+--[1075]--
+{
+   [6]=true
+},
+--[1076]--
+{
+   [6]=true
+},
+--[1077]--
+{
+   [6]=true
+},
+--[1078]--
+{
+   [6]=true
+},
+--[1079]--
+{
+   [6]=true
+},
+--[1080]--
+{
+   [6]=true
+},
+--[1081]--
+{
+   [6]=true
+},
+--[1082]--
+{
+   [6]=true
+},
+--[1083]--
+{
+   [6]=true
+},
+--[1084]--
+{
+   [6]=true
+},
+--[1085]--
+{
+   [6]=true
+},
+--[1086]--
+{
+   [6]=true
+},
+--[1087]--
+{
+   [6]=true
+},
+--[1088]--
+{
+   [6]=true
+},
+--[1089]--
+{
+   [6]=true
+},
+--[1090]--
+{
+   [6]=true
+},
+--[1091]--
+{
+   [6]=true
+},
+--[1092]--
+{
+   [6]=true
+},
+--[1093]--
+{
+   [6]=true
+},
+--[1094]--
+{
+   [6]=true
+},
+--[1095]--
+{
+   [6]=true
+},
+--[1096]--
+{
+   [6]=true
+},
+--[1097]--
+{
+   [6]=true
+},
+--[1098]--
+{
+   [6]=true
+},
+--[1099]--
+{
+   [6]=true
+},
+--[1100]--
+{
+   [6]=true
+},
+--[1101]--
+{
+   [6]=true
+},
+--[1102]--
+{
+   [6]=true
+},
+--[1103]--
+{
+   [6]=true
+},
+--[1104]--
+{
+   [6]=true
+},
+--[1105]--
+{
+   [6]=true
+},
+--[1106]--
+{
+   [6]=true
+},
+--[1107]--
+{
+   [2]=true
+},
+--[1108]--
+{
+   [6]=true
+},
+--[1109]--
+{
+   [4]=true
+},
+--[1110]--
+{
+   [6]=true
+},
+--[1111]--
+{
+   [6]=true
+},
+--[1112]--
+{
+   [6]=true
+},
+--[1113]--
+{
+   [6]=true
+},
+--[1114]--
+{
+   [6]=true
+},
+--[1115]--
+{
+   [6]=true
+},
+--[1116]--
+{
+   [6]=true
+},
+--[1117]--
+{
+   [6]=true
+},
+--[1118]--
+{
+   [6]=true
+},
+--[1119]--
+{
+   [6]=true
+},
+--[1120]--
+{
+   [6]=true
+},
+--[1121]--
+{
+   [6]=true
+},
+--[1122]--
+{
+   [6]=true
+},
+--[1123]--
+{
+   [6]=true
+},
+--[1124]--
+{
+   [6]=true
+},
+--[1125]--
+{
+   [6]=true
+},
+--[1126]--
+{
+   [6]=true
+},
+--[1127]--
+{
+   [6]=true
+},
+--[1128]--
+{
+   [6]=true
+},
+--[1129]--
+{
+   [6]=true
+},
+--[1130]--
+{
+   [6]=true
+},
+--[1131]--
+{
+   [6]=true
+},
+--[1132]--
+{
+   [6]=true
+},
+--[1133]--
+{
+   [6]=true
+},
+--[1134]--
+{
+   [6]=true
+},
+--[1135]--
+{
+   [6]=true
+},
+--[1136]--
+{
+   [6]=true
+},
+--[1137]--
+{
+   [6]=true
+},
+--[1138]--
+{
+   [6]=true
+},
+--[1139]--
+{
+   [6]=true
+},
+--[1140]--
+{
+   [6]=true
+},
+--[1141]--
+{
+   [6]=true
+},
+--[1142]--
+{
+   [6]=true
+},
+--[1143]--
+{
+   [6]=true
+},
+--[1144]--
+{
+   [6]=true
+},
+--[1145]--
+{
+   [6]=true
+},
+--[1146]--
+{
+   [6]=true
+},
+--[1147]--
+{
+   [6]=true
+},
+--[1148]--
+{
+   [6]=true
+},
+--[1149]--
+{
+   [6]=true
+},
+--[1150]--
+{
+   [6]=true
+},
+--[1151]--
+{
+   [6]=true
+},
+--[1152]--
+{
+   [6]=true
+},
+--[1153]--
+{
+   [6]=true
+},
+--[1154]--
+{
+   [6]=true
+},
+--[1155]--
+{
+   [6]=true
+},
+--[1156]--
+{
+   [6]=true
+},
+--[1157]--
+{
+   [6]=true
+},
+--[1158]--
+{
+   [6]=true
+},
+--[1159]--
+{
+   [6]=true
+},
+--[1160]--
+{
+   [6]=true
+},
+--[1161]--
+{
+   [6]=true
+},
+--[1162]--
+{
+   [6]=true
+},
+--[1163]--
+{
+   [6]=true
+},
+--[1164]--
+{
+   [6]=true
+},
+--[1165]--
+{
+   [6]=true
+},
+--[1166]--
+{
+   [6]=true
+},
+--[1167]--
+{
+   [6]=true
+},
+--[1168]--
+{
+   [6]=true
+},
+--[1169]--
+{
+   [6]=true
+},
+--[1170]--
+{
+   [6]=true
+},
+--[1171]--
+{
+   [6]=true
+},
+--[1172]--
+{
+   [6]=true
+},
+--[1173]--
+{
+   [6]=true
+},
+--[1174]--
+{
+   [6]=true
+},
+--[1175]--
+{
+   [6]=true
+},
+--[1176]--
+{
+   [6]=true
+},
+--[1177]--
+{
+   [2]=true
+},
+--[1178]--
+{
+   [6]=true
+},
+--[1179]--
+{
+   [6]=true
+},
+--[1180]--
+{
+   [6]=true
+},
+--[1181]--
+{
+   [6]=true
+},
+--[1182]--
+{
+   [6]=true
+},
+--[1183]--
+{
+   [6]=true
+},
+--[1184]--
+{
+   [6]=true
+},
+--[1185]--
+{
+   [6]=true
+},
+--[1186]--
+{
+   [6]=true
+},
+--[1187]--
+{
+   [6]=true
+},
+--[1188]--
+{
+   [6]=true
+},
+--[1189]--
+{
+   [6]=true
+},
+--[1190]--
+{
+   [6]=true
+},
+--[1191]--
+{
+   [6]=true
+},
+--[1192]--
+{
+   [6]=true
+},
+--[1193]--
+{
+   [6]=true
+},
+--[1194]--
+{
+   [6]=true
+},
+--[1195]--
+{
+   [6]=true
+},
+--[1196]--
+{
+   [6]=true
+},
+--[1197]--
+{
+   [6]=true
+},
+--[1198]--
+{
+   [6]=true
+},
+--[1199]--
+{
+   [6]=true
+},
+--[1200]--
+{
+   [6]=true
+},
+--[1201]--
+{
+   [6]=true
+},
+--[1202]--
+{
+   [6]=true
+},
+--[1203]--
+{
+   [6]=true
+},
+--[1204]--
+{
+   [6]=true
+},
+--[1205]--
+{
+   [6]=true
+},
+--[1206]--
+{
+   [6]=true
+},
+--[1207]--
+{
+   [6]=true
+},
+--[1208]--
+{
+   [6]=true
+},
+--[1209]--
+{
+   [6]=true
+},
+--[1210]--
+{
+   [6]=true
+},
+--[1211]--
+{
+   [6]=true
+},
+--[1212]--
+{
+   [6]=true
+},
+--[1213]--
+{
+   [6]=true
+},
+--[1214]--
+{
+   [6]=true
+},
+--[1215]--
+{
+   [6]=true
+},
+--[1216]--
+{
+   [6]=true
+},
+--[1217]--
+{
+   [6]=true
+},
+--[1218]--
+{
+   [6]=true
+},
+--[1219]--
+{
+   [6]=true
+},
+--[1220]--
+{
+   [6]=true
+},
+--[1221]--
+{
+   [6]=true
+},
+--[1222]--
+{
+   [6]=true
+},
+--[1223]--
+{
+   [6]=true
+},
+--[1224]--
+{
+   [6]=true
+},
+--[1225]--
+{
+   [6]=true
+},
+--[1226]--
+{
+   [6]=true
+},
+--[1227]--
+{
+   [6]=true
+},
+--[1228]--
+{
+   [6]=true
+},
+--[1229]--
+{
+   [6]=true
+},
+--[1230]--
+{
+   [6]=true
+},
+--[1231]--
+{
+   [6]=true
+},
+--[1232]--
+{
+   [6]=true
+},
+--[1233]--
+{
+   [6]=true
+},
+--[1234]--
+{
+   [6]=true
+},
+--[1235]--
+{
+   [6]=true
+},
+--[1236]--
+{
+   [6]=true
+},
+--[1237]--
+{
+   [6]=true
+},
+--[1238]--
+{
+   [6]=true
+},
+--[1239]--
+{
+   [6]=true
+},
+--[1240]--
+{
+   [6]=true
+},
+--[1241]--
+{
+   [6]=true
+},
+--[1242]--
+{
+   [6]=true
+},
+--[1243]--
+{
+   [6]=true
+},
+--[1244]--
+{
+   [6]=true
+}
+}
